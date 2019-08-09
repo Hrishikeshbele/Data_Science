@@ -1,2 +1,2 @@
 # Data_Science_challenges
-this repository contain data science or data analytics challenges i have solved or attempted.
+This repository contains data science or data analytics challenges I have solved or attempted.
