@@ -10,3 +10,4 @@
 8.df_train.isnull().sum(axis = 1) : gives no of null values in each row
 9.df_train.count(axis=0): calculates no of non-null values of each column
 10.df_train.count(axis=1): calculates no of non-null values in each row
+11.df_train.any() or .all(): all check if all values in columns are not null return true and vice-versa 
