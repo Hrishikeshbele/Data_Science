@@ -1,0 +1,2 @@
+1.df['food']: selecting single column of dataframe
+2.df[['color', 'food', 'score']]: select multiple column
