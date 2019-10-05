@@ -37,3 +37,6 @@ imputer = Imputer(missing_values = 'NaN', strategy = 'mean')
 imputer = imputer.fit(X.iloc[:, 1:3])
 X[:, 1:3] = imputer.transform(X.iloc[:, 1:3])
 
+>using drop command to drop perticular row/column's:
+df.drop(['B', 'C'], axis=1): will drop column B and C from dataframe
+
