@@ -4,3 +4,5 @@ as the original DataFrame.
 
 1.df['food']: selecting single column of dataframe
 2.df[['color', 'food', 'score']]: select multiple column
+3.df.loc['Niko':'Dean']:returns rows starting from label niko upto and including dean
+
