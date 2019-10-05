@@ -1,0 +1,16 @@
+A)Noise in tabular data can be of three types:
+  1.Anomalies in certain data items (Noise 1: certain anomalies in features & target)
+    > either remove the outliers records or put upper and lower ceiling.
+    >use Density-based anomaly detection( kNN & LOF based methods),Clustering-based anomaly detection(k-Means clustering),
+     Autoencoder-based anomaly detection or using visualisation.
+  2.Features that don’t help in explaining the target (Noise 2: irrelevant/weak features)
+    >use feature selection methods like Forward selection,Backward elimination,Recursive elimination,Embedded Methods, chi-square & pearson
+  3.Records which don’t follow the form or relation which rest of the records do (Noise 3: noisy records)
+    >use cross-validation,look at the cross validation score of each fold and analyse the folds which have poor CV scores, what are the 
+     common attributes of records having poor scores, etc.
+
+B)Benefits of identifying & treating noise in data:
+  1.enables the DS algorithm to train faster.
+  2.reduces the complexity of a model and makes it easier to interpret
+  3.improves the accuracy of a model if the right subset is chosen
+  4.reduces overfitting
