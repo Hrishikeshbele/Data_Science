@@ -1,3 +1,5 @@
 
 1.df_train.isnull().sum(axis = 0).sort_values(ascending=False): will display null values in each column in descending order
 2.new_data = df_train.dropna(thresh =len(df_train) * .8 , axis = 1):droping column where more than 80% values are null
+3.df['a'] = df['a'].astype(float): this will convert data type of column a to float.
+4.df.drop(['B', 'C'], axis=1): will drop column B and C from dataframe
