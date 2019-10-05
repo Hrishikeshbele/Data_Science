@@ -4,5 +4,12 @@ as the original DataFrame.
 
 1.df['food']: selecting single column of dataframe
 2.df[['color', 'food', 'score']]: select multiple column
+>loc only selects data by the LABEL of the rows and columns.
 3.df.loc['Niko':'Dean']:returns rows starting from label niko upto and including dean
-
+4.df.loc[['Dean', 'Cornelia'], ['age', 'state', 'score']]: returns values having rows dean, cornelia and having columns age,store...
+5.df.loc['Jane':'Penelope', ['state', 'color']]: select slice of row labels and list of columns
+6.df.loc['Jane', 'age']: returns value of row jane and column age,returns single value
+>iloc uses integer locations to make its selections.
+7.df.iloc[[5, 2, 4]]:selecting multiple rows
+8.df.iloc[3:6]: select rows from 3 to 5
+9.df.iloc[[2,3], [0, 1]] or  df.iloc[2:4, 0:2]: return values having rows 2,3 and column 0 & 1
