@@ -27,7 +27,7 @@ A categorical feature will have a definite number of possibilities, such as gend
 Using the features which do not have missing values, we can predict the nulls with the help of a machine learning algorithm. This method may result in better accuracy, unless a missing value is expected to have a very high variance. 
 
 5. Using Algorithms Which Support Missing Values:
-KNN is a machine learning algorithm which works on the principle of distance measure. This algorithm can be used when there are nulls present in the dataset. While the algorithm is applied, KNN considers the missing values by taking the majority of the K nearest values. 
+KNN is a machine learning algorithm which works on the principle of distance measure. The k-neighbours are chosen using some distance measure and their average is used as an imputation estimate. This could be used for estimating both qualitative attributes (the most frequent value among the k nearest neighbours) and quantitative attributes (the mean of the k nearest neighbours).
 Unfortunately, the SciKit Learn library for the K - Nearest Neighbour algorithm in Python does not support the presence of the missing values.
 Another algorithm which can be used here is RandomForest. This model produces a robust result because it works well on non-linear and the categorical data. It adapts to the data structure taking into consideration of the high variance or the bias, producing better results on large datasets.
 
