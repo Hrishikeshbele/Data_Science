@@ -15,5 +15,5 @@
 13.df.var(axis=0):prints variance of each column of the dataframe
 14.df.shape : returns shape of dataframe
 15.df.values: returns values of all columns without header
- 
+16.df.dtypes: return data types of each column in dataframe
 
