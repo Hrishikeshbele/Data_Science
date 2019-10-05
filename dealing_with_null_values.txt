@@ -31,3 +31,9 @@ KNN is a machine learning algorithm which works on the principle of distance mea
 Unfortunately, the SciKit Learn library for the K - Nearest Neighbour algorithm in Python does not support the presence of the missing values.
 Another algorithm which can be used here is RandomForest. This model produces a robust result because it works well on non-linear and the categorical data. It adapts to the data structure taking into consideration of the high variance or the bias, producing better results on large datasets.
 
+>Handle missing data in your training dataset with SciKit Imputer:(strategy:mean,median,most_frequent)
+from sklearn.preprocessing import Imputer
+imputer = Imputer(missing_values = 'NaN', strategy = 'mean')
+imputer = imputer.fit(X.iloc[:, 1:3])
+X[:, 1:3] = imputer.transform(X.iloc[:, 1:3])
+
