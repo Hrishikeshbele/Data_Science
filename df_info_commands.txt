@@ -13,5 +13,6 @@
 11.df_train.any() or .all(): all check if all values in columns are not null return true and vice-versa 
 12.df_train.notna(): returns no of not null values in each column in df
 13.df.var(axis=0):prints variance of each column of the dataframe
+14.df.shape : returns shape of dataframe
  
 
