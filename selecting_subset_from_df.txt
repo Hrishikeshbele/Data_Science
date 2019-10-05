@@ -2,6 +2,7 @@ pro-tips:
 >When selecting multiple columns, you can select them in any order that you choose. It doesn’t have to be the same order 
 as the original DataFrame.
 
+0.df.food : select food column from df dataframe
 1.df['food']: selecting single column of dataframe
 2.df[['color', 'food', 'score']]: select multiple column
 >loc only selects data by the LABEL of the rows and columns.
