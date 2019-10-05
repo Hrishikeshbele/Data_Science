@@ -14,5 +14,6 @@
 12.df_train.notna(): returns no of not null values in each column in df
 13.df.var(axis=0):prints variance of each column of the dataframe
 14.df.shape : returns shape of dataframe
+15.df.values: returns values of all columns without header
  
 
