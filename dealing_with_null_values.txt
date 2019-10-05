@@ -1,1 +1,11 @@
+pro tips:
+>If the information contained in the variable is not that high, you can drop the variable if it has more than 50% missing values. sometimes imputation of even 20 - 30% missing values provide's better results - the famous Titanic dataset on Kaggle being one such case. Age is missing in ~20% of cases, but you benefit by imputing them rather than ignoring the variable.
 
+
+1.delete rows/columns:
+Here, we either delete a particular row/column if it has more than 70-75% of missing values. This method is advised only when there are enough samples in the data set. 
+> we use isnull() for this task:(default:0>delete rows,inplace=True>do operation inplace and return None.
+  1.df.dropna(axis=1): delete the columns where any null values are present 
+  2.df.dropna():delete the rows where any null values are present 
+  3.new_data.dropna(thresh=2): Keep only the rows with at least 2 non-NA values.
+  4.df.dropna(subset=['name', 'born']):Define in which columns to look for missing values.
