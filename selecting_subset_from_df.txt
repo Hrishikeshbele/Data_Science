@@ -1,2 +1,6 @@
+pro-tips:
+>When selecting multiple columns, you can select them in any order that you choose. It doesn’t have to be the same order 
+as the original DataFrame.
+
 1.df['food']: selecting single column of dataframe
 2.df[['color', 'food', 'score']]: select multiple column
