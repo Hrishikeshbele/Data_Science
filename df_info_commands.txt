@@ -1,0 +1,12 @@
+>>below are the command's that give information about pandas dataframe:
+
+1.df_train.describe(): returns summary statistics of each column like mean, 5 pt summary of box plot
+2.df_train.info(): gives info about no of non-null values in each columns and datatype of each column with header names if present.
+3.df_train.head(5): returns top 5 entries of dataframe
+4.df_train.tail(5): returns bottom 5 entries of dataframe
+5.df_train.columns: returns array containing header names and their data type
+6.df_train.isnull().sum(axis = 0) : gives no of null values in each column
+7.len(df_train) - df_train.count(): calculates no of null values in each column (faster than isnull for small datasets)
+8.df_train.isnull().sum(axis = 1) : gives no of null values in each row
+9.df_train.count(axis=0): calculates no of non-null values of each column
+10.df_train.count(axis=1): calculates no of non-null values in each row
