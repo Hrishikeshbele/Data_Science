@@ -1,3 +1,4 @@
 details about algorithm:
 1.Summarize the parameters of the algo and the expected influences they have on the algorithm.
 2.Select a range of datasets suited to the algorithm that are likely to elicit varied behaviors.
+3.theory and implementation of algo
