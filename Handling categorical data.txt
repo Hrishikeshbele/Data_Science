@@ -1,0 +1,6 @@
+1.Machine learning uses only numeric values (float or int data type). However, data sets often contain the object data type 
+ that needs to be transformed into numeric data type.
+ >one of the way to adress this is to use One Hot Encoder:
+  from sklearn.preprocessing import OneHotEncoder
+  onehotencoder = OneHotEncoder(categorical_features = [0])
+  X = onehotencoder.fit_transform(X).toarray()
