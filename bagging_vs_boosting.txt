@@ -31,5 +31,5 @@ The succeeding models are dependent on the previous model.steps:
 7. Another model is created and predictions are made on the dataset.(This model tries to correct the errors from the previous model)
 8. Similarly, multiple models are created, each correcting the errors of the previous model.
 9. The final model (strong learner) is the weighted mean of all the models (weak learners).
-Thus, the boosting algorithm combines a number of weak learners to form a strong learner. The individual models would not perform well on 
-the entire dataset,but they work well for some part of the dataset. Thus, each model actually boosts the performance of the ensemble.
+Thus, the boosting algorithm combines a number of weak learners to form a strong learner. The individual models would not perform well on the entire dataset,but they work well for some part of the dataset. Thus, each model actually boosts the performance of the ensemble.
+>example of bosting alo's:AdaBoost,GBM,XGBM,Light GBM,CatBoost
