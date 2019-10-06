@@ -18,6 +18,7 @@ steps in creating ensemble model using bagging:
 2.A base model (weak model) is created on each of these subsets.
 3.The models run in parallel and are independent of each other.
 4.The final predictions are determined by combining the predictions from all the models.
+>Common Bagging algorithms:Bagging meta-estimator,Random forest
 
 B)Boosting:
 Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. 
@@ -32,4 +33,4 @@ The succeeding models are dependent on the previous model.steps:
 8. Similarly, multiple models are created, each correcting the errors of the previous model.
 9. The final model (strong learner) is the weighted mean of all the models (weak learners).
 Thus, the boosting algorithm combines a number of weak learners to form a strong learner. The individual models would not perform well on the entire dataset,but they work well for some part of the dataset. Thus, each model actually boosts the performance of the ensemble.
->example of bosting alo's:AdaBoost,GBM,XGBM,Light GBM,CatBoost
+>common bosting alo's:AdaBoost,GBM,XGBM,Light GBM,CatBoost
