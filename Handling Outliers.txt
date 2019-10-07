@@ -30,3 +30,35 @@ upper_lim = data['column'].quantile(.95)
 lower_lim = data['column'].quantile(.05)
 data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
+
+
+visualization:(for single variable)
+1.Box plot-
+#code for boxplot on dis column
+import seaborn as sns
+sns.boxplot(x=boston_df['DIS'])
+
+2.Z-Score-(multivariate)
+#finding z score for all dataset
+from scipy import stats
+import numpy as np
+z = np.abs(stats.zscore(boston_df))
+print(z)
+#in output The first array contains the list of row numbers and second array respective column numbers, which mean z[55][1]
+have a Z-score higher than 3.
+let’s try and define a threshold to identify an outlier.
+threshold = 3
+print(np.where(z > 3))
+> removing outliers observation or row's using z-score
+boston_df_o = boston_df_o[(z < 3).all(axis=1)]
+
+3.IQR:(multivariate data)
+#finding iqr of each column 
+Q1 = boston_df_o1.quantile(0.25)
+Q3 = boston_df_o1.quantile(0.75)
+IQR = Q3 - Q1
+print(IQR)
+#The data point where we have False that means these values are valid whereas True indicates presence of an outlier.
+print(boston_df_o1 < (Q1 - 1.5 * IQR)) |(boston_df_o1 > (Q3 + 1.5 * IQR))
+#The below code will remove the outliers from the dataset using iqr.
+boston_df_out = boston_df_o1[~((boston_df_o1 < (Q1 - 1.5 * IQR)) |(boston_df_o1 > (Q3 + 1.5 * IQR))).any(axis=1)]
