@@ -1,5 +1,5 @@
 1.Dealing with Missing Values
-2.Handling categorical data
+2.Handling categorical data(Encoding Categorical Features)
 3.Dealing with inconsistent(different unique values in column which are meant to be same,ex.dd/mm/yy and mm/dd/yy in the same columns) 
   data entry (use Fuzzy Wuzzy package)
 4.Handling Dates and Times (use datetime package)
