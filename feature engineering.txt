@@ -1,3 +1,27 @@
 goals:
   1.Preparing the proper input dataset, compatible with the machine learning algorithm requirements.
   2.Improving the performance of machine learning models.
+  
+1.Feature Split:
+By extracting the utilizable parts of a column into new features:We enable machine learning algorithms to comprehend them,Improve model    performance by uncovering potential information.Split function is a good option, however, there is no one way of splitting features.
+example:
+data.name
+0  Luther N. Gonzalez
+1    Charles M. Young
+2        Terry Lawson
+3       Kristen White
+4      Thomas Logsdon
+#Extracting first names
+data.name.str.split(" ").map(lambda x: x[0])
+0     Luther
+1    Charles
+2      Terry
+3    Kristen
+4     Thomas
+#Extracting last names
+data.name.str.split(" ").map(lambda x: x[-1])
+0    Gonzalez
+1       Young
+2      Lawson
+3       White
+4     Logsdon
