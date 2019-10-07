@@ -4,3 +4,4 @@
   data entry (use Fuzzy Wuzzy package)
 4.Handling Dates and Times (use datetime package)
 5.Scaling and Normalization
+6..Handling Outliers
