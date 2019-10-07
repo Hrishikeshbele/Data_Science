@@ -1,1 +1,32 @@
+ >>pro-tips:
+ > either remove the outliers records or put upper and lower ceiling.
+ >use Density-based anomaly detection( kNN & LOF based methods),Clustering-based anomaly detection(k-Means clustering),
+  Autoencoder-based anomaly detection or using visualisation.
+ >the best way to detect the outliers is to demonstrate the data visually, statistical methodologies are open to making mistakes but they   are fast.
+ 
+>>some Statistical methodologies for outliers detection:
+1.Outlier Detection with Standard Deviation
+If a value has a distance to the average higher than x * standard deviation, it can be assumed as an outlier. There is no trivial solution for x, but usually, a value between 2 and 4 seems practical.
 
+#code for Dropping the outlier rows with standard deviation
+factor = 3
+upper_lim = data['column'].mean () + data['column'].std () * factor
+lower_lim = data['column'].mean () - data['column'].std () * factor
+data = data[(data['column'] < upper_lim) & (data['column'] > lower_lim)]
+
+2.Outlier Detection with Percentiles
+Another mathematical method to detect outliers is to use percentiles. You can assume a certain percent of the value from the top or the bottom as an outlier. The key point is here to set the percentage value once again, and this depends on the distribution of your data as mentioned earlier.
+#code for Dropping the outlier rows withn 5 Percentiles
+upper_lim = data['column'].quantile(.95)
+lower_lim = data['column'].quantile(.05)
+data = data[(data['column'] < upper_lim) & (data['column'] > lower_lim)]
+
+3.An Outlier Dilemma: Drop or Cap
+Another option for handling outliers is to cap them instead of dropping. So you can keep your data size and at the end of the day, it might be better for the final model performance.
+On the other hand, capping can affect the distribution of the data, thus it better not to exaggerate it.
+
+#code for Capping the outlier rows with 5 Percentiles
+upper_lim = data['column'].quantile(.95)
+lower_lim = data['column'].quantile(.05)
+data.loc[(df[column] > upper_lim),column] = upper_lim
+data.loc[(df[column] < lower_lim),column] = lower_lim
