@@ -32,8 +32,8 @@ data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
 
 
-visualization:(for single variable)
-1.Box plot-
+visualization:
+1.Box plot-(for single variable)
 #code for boxplot on dis column
 import seaborn as sns
 sns.boxplot(x=boston_df['DIS'])
