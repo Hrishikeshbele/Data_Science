@@ -1,0 +1,3 @@
+goals:
+  1.Preparing the proper input dataset, compatible with the machine learning algorithm requirements.
+  2.Improving the performance of machine learning models.
