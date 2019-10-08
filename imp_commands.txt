@@ -5,3 +5,4 @@
 4.df.drop(['B', 'C'], axis=1): will drop column B and C from dataframe
 5.df['tweet'].apply(lambda x : len(x.split())) #here calculating word counts of each tweet :we can pass a user-defined function and apply   it to every single data point of the Pandas series
 6.data["Team"].isin(["Engineering", "Distribution"]):selects rows having a particular(or Multiple) value in a particular column in df.
+7.new_df = df.copy(): Copying the dataframe
