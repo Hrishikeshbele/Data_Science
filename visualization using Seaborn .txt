@@ -1,0 +1,6 @@
+>Seaborn makes our charts and plots look engaging and enables some of the common data visualization needs (like mapping color to a variable
+  or using faceting).
+>There are essentially a couple of (big) limitations in matplotlib that Seaborn fixes:
+1.Seaborn comes with a large number of high-level interfaces and customized themes that matplotlib lacks as it’s not easy to 
+  figure out the settings that make plots attractive
+2.Matplotlib functions don’t work well with dataframes, whereas seaborn does
