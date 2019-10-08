@@ -4,3 +4,17 @@
 1.Seaborn comes with a large number of high-level interfaces and customized themes that matplotlib lacks as it’s not easy to 
   figure out the settings that make plots attractive
 2.Matplotlib functions don’t work well with dataframes, whereas seaborn does
+
+A)Scatterplot using Seaborn:
+Ex:
+  import seaborn as sns
+  sns.relplot(x="TID", y="Price",hue = "Property Type", data = df_train)
+  
+B)Jitter Plot:Jitter is the deviation from the true value.
+ex:
+  sns.catplot(x="education", y="avg_training_score", hue = "is_promoted", data=df2)
+C)Boxplot using seaborn:
+ex:
+  sns.catplot(x="education", y="avg_training_score", kind = "box", data=df2)
+
+
