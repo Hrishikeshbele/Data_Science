@@ -14,7 +14,9 @@ B)Jitter Plot:Jitter is the deviation from the true value.
 ex:
   sns.catplot(x="education", y="avg_training_score", hue = "is_promoted", data=df2)
 C)Boxplot using seaborn:
+  >when use hue semantic with boxplot, it is leveled along the categorical axis so they don’t overlap.it creates box plot for each type in    hue column.
 ex:
   sns.catplot(x="education", y="avg_training_score", kind = "box", data=df2)
+  
 
 
