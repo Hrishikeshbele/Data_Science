@@ -1,0 +1,4 @@
+The field of data mining is the study and construction of systems that discover interesting relationships from large data sets. 
+As such data mining spans both the storage and maintenance of data and the process of making discoveries in the data. Data mining
+is a process and is also known as knowledge discovery in databases (KDD). Data Mining is a subfield of computer science. The field 
+is concerned with questions of what relationships are interesting and how to best discover them.
