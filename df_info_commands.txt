@@ -17,3 +17,4 @@
 15.df.values: returns values of all columns without header
 16.df.dtypes: return data types of each column in dataframe
 
+
