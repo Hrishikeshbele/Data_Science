@@ -7,3 +7,4 @@
 6.data["Team"].isin(["Engineering", "Distribution"]):selects rows having a particular(or Multiple) value in a particular column in df.
 7.new_df = df.copy(): Copying the dataframe
 8.df['diagnosis'].value_counts(): will give count of each unique values in column
+9.cat_columns = df.select_dtypes(['cat_names']).columns: to select automatically all columns with a certain dtype in a dataframe 
