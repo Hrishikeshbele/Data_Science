@@ -1,4 +1,6 @@
 reference:https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
+pro tips:
+1.knn,svm ,nueral network need feature scaling 
 
 Why Scaling:
 Most of the times, your dataset will contain features highly varying in magnitudes, units and range. But since, most of the machine 
