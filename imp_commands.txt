@@ -8,3 +8,4 @@
 7.new_df = df.copy(): Copying the dataframe
 8.df['diagnosis'].value_counts(): will give count of each unique values in column
 9.cat_columns = df.select_dtypes(['cat_names']).columns: to select automatically all columns with a certain dtype in a dataframe 
+10.df[df.columns[2:]] : selecting all columns excluding first 2 in dataframe  
