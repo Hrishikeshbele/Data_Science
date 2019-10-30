@@ -20,6 +20,14 @@ This distribution will have values between -1 and 1 with μ=0.Standardisation an
 that assumes zero centric data like Principal Component Analysis(PCA).
 3. Min-Max Scaling:
 This scaling brings the value between 0 and 1.
+''' code:
+#normalise dataset using min-max scelar
+from sklearn import preprocessing
+min_max_scaler = preprocessing.MinMaxScaler()
+X_train_minmax = min_max_scaler.fit_transform(df1)
+df2 = pd.DataFrame(X_train_minmax) 
+'''
+
 4. Unit Vector:
 Scaling is done considering the whole feature vecture to be of unit length.Min-Max Scaling and Unit Vector techniques produces values 
 of range [0,1]. When dealing with features with hard boundaries this is quite useful. For example, when dealing with image data, the 
