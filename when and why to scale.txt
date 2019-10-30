@@ -1,4 +1,5 @@
-reference:https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
+reference:1. https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
+          2.imp: https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02
 pro tips:
 1.knn,svm ,nueral network need feature scaling 
 
