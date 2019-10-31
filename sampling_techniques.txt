@@ -2,3 +2,5 @@ under sampeling: https://towardsdatascience.com/sampling-techniques-for-extremel
 over sampeling: https://towardsdatascience.com/sampling-techniques-for-extremely-imbalanced-data-part-ii-over-sampling-d61b43bc4879
 
 1.cluster centroids undersampling: https://towardsdatascience.com/implementation-of-cluster-centroid-based-majority-under-sampling-technique-ccmut-in-python-f006a96ed41c
+2.Tomek-link based under sampling: https://blog.dominodatalab.com/imbalanced-datasets/
+3.Nearmiss: https://www.geeksforgeeks.org/ml-handling-imbalanced-data-with-smote-and-near-miss-algorithm-in-python/
