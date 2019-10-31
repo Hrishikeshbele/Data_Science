@@ -5,3 +5,4 @@ over sampeling: https://towardsdatascience.com/sampling-techniques-for-extremely
 2.Tomek-link based under sampling: https://blog.dominodatalab.com/imbalanced-datasets/
 3.Nearmiss: https://www.geeksforgeeks.org/ml-handling-imbalanced-data-with-smote-and-near-miss-algorithm-in-python/
 4.SMOTE: https://towardsdatascience.com/a-deep-dive-into-imbalanced-data-over-sampling-f1167ed74b5
+5.ADASYN: https://towardsdatascience.com/adasyn-adaptive-synthetic-sampling-method-for-imbalanced-data-602a3673ba16
