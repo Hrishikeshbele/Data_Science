@@ -11,3 +11,4 @@
 10.df[df.columns[2:]] : selecting all columns excluding first 2 in dataframe  
 11.dataset.isnull().sum(): will give no of null values in each column
 12.df.columns.difference(['Class']: select the column except 'class' column, you can also give multiple entries
+13.df[df.columns[8]] : selecting column by its index 
