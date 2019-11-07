@@ -12,3 +12,4 @@
 11.dataset.isnull().sum(): will give no of null values in each column
 12.df.columns.difference(['Class']: select the column except 'class' column, you can also give multiple entries
 13.df[df.columns[8]] : selecting column by its index 
+14.data[data.columns] = data[data.columns].replace(0,np.NaN): replacing 0 values in selected columns with nan.
