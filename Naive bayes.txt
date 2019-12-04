@@ -1,0 +1,12 @@
+Type of Naive Bayes Algorithm:Python's Scikitlearn gives the user access to the following 3 Naive Bayes models.
+# from sklearn.naive_bayes import GaussianNB, BernoulliNB, MultinomialNB
+1.Gaussian
+The gaussian NB Alogorithm assumes all contnuous features (predictors) and all follow a Gaussian (Normal Distribution).
+
+2.Multinomial
+Multinomial NB is suited for discrete data that have frequencies and counts. Spam Filtering and Text/Document Classification are two 
+very well-known use cases.
+
+3.Bernoulli
+Bernoulli is similar to Multinomial except it is for boolean/binary features. Like the multinomial method it can be used for spam filtering 
+and document classification in which binary terms (i.e. word occurrence in a document represented with True or False).
