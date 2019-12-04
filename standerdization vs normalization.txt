@@ -6,4 +6,4 @@ Xchanged= X−Xmin/Xmax−Xmin
 
 2.Standardization rescales data to have a mean (μ) of 0 and standard deviation (σ) of 1 (unit variance).
 Xchanged=X−μ/σ
-For most applications standardization is recommended.
+
