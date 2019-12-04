@@ -1,3 +1,5 @@
+std vs norm- https://towardsdatascience.com/normalization-vs-standardization-quantitative-analysis-a91e8a79cebf
+
 1. Normalization rescales the values into a range of [0,1]. This might be useful in some cases where all parameters need to have the same 
 positive scale. 
 Xchanged= X−Xmin/Xmax−Xmin
