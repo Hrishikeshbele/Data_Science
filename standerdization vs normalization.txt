@@ -1,0 +1,7 @@
+1. Normalization rescales the values into a range of [0,1]. This might be useful in some cases where all parameters need to have the same 
+positive scale. 
+Xchanged= X−Xmin/Xmax−Xmin
+
+2.Standardization rescales data to have a mean (μ) of 0 and standard deviation (σ) of 1 (unit variance).
+Xchanged=X−μ/σ
+For most applications standardization is recommended.
