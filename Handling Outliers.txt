@@ -62,3 +62,18 @@ print(IQR)
 print(boston_df_o1 < (Q1 - 1.5 * IQR)) |(boston_df_o1 > (Q3 + 1.5 * IQR))
 #The below code will remove the outliers from the dataset using iqr.
 boston_df_out = boston_df_o1[~((boston_df_o1 < (Q1 - 1.5 * IQR)) |(boston_df_o1 > (Q3 + 1.5 * IQR))).any(axis=1)]
+
+4.Winsorizing of dataset:
+Winsorizing or winsorization is the transformation of statistics by limiting extreme values in the statistical data to reduce the effect of possibly spurious outliers.
+Note that winsorizing is not equivalent trimming or truncation.In a trimmed estimator, the extreme values are discarded; in a winsorized estimator, the extreme values are instead replaced by certain percentiles (the trimmed minimum and maximum).
+
+Consider the data set consisting of:
+{92, 19, 101, 58, 1053, 91, 26, 78, 10, 13, −40, 101, 86, 85, 15, 89, 89, 28, −5, 41}       (N = 20, mean = 101.5)
+The data below the 5th percentile lies between −40 and −5, while the data above the 95th percentile lies between 101 and 1053. (Values shown in bold.) Then a 90% winsorization would result in the following:
+
+{92, 19, 101, 58, 101, 91, 26, 78, 10, 13, −5, 101, 86, 85, 15, 89, 89, 28, −5, 41}       (N = 20, mean = 55.65)
+Python can winsorize data using SciPy library :
+import scipy.stats
+import numpy as np
+a = np.array([92, 19, 101, 58, 1053, 91, 26, 78, 10, 13, -40, 101, 86, 85, 15, 89, 89, 28, -5, 41])
+scipy.stats.mstats.winsorize(a, limits=[0.05, 0.05])
