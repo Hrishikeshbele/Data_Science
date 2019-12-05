@@ -7,3 +7,7 @@ Xchanged= X−Xmin/Xmax−Xmin
 2.Standardization rescales data to have a mean (μ) of 0 and standard deviation (σ) of 1 (unit variance).
 Xchanged=X−μ/σ
 
+> when to use which method:
+
+1.if you have features with clearly defined boundaries, you should prefer normalization as this allows to equalize the weights influence of each feature.
+2. if you have values with possibly extreme outliers, maybe standardization could be useful, so you still get reasonable values for common values (else the common values will be "squished" by the outliers extreme values, eg, if you have values [0 1 2 1E100], if you normalize you will get something around [0.0 0.0 0.0 1.0] which is probably not what you want). Also it would allow to easily apply windsorizing to trim outliers.
