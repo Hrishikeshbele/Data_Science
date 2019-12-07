@@ -1,0 +1,9 @@
+>Linear Regression is a type of Regression Analysis in which the independent variables(X) has a linear relationship with the dependent
+variable(y). 
+>In Linear Regression, we will be fitting a straight line on to our data in a way that the distance between the data points(blue dots) and 
+the line is minimal. This is known as the best fit line.
+>we generally take  Mean Squared Error function as our cost function to minimize.
+>following are 3 methods to choose theta's parameter that minimizes error or cost function:
+1.batch gradient descent
+2.stochastic gradient descent
+3.using normal equation
