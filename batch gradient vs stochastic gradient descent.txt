@@ -1,0 +1,13 @@
+link-https://towardsdatascience.com/difference-between-batch-gradient-descent-and-stochastic-gradient-descent-1187f1291aa1
+
+1.batch gradient descent:you have to run through ALL the samples in your training set to do a single update for a parameter in a 
+particular iteration.we stop after perticular no of iterations or after no improvement.
+2.Stochastic gradient descent :you use ONLY ONE or SUBSET of training sample from your training set to do the update for a parameter in a
+particular iteration.If you use SUBSET, it is called MINIBATCH Stochastic gradient Descent.The inclusion of the word stochastic simply 
+means the random samples from the training data are chosen in each run to update parameter during optimisation.
+
+>If the number of training samples are large, then using gradient descent may take too long because in every iteration you are running 
+through the complete training set for updating the values of the parameters.On the other hand, using SGD will be faster because you use 
+only one training sample and it starts improving itself right away from the first sample.
+>SGD often converges much faster compared to GD but the error function is not as well minimized as in the case of GD. Often in most cases, 
+the close approximation that you get in SGD for the parameter values are enough because they reach the optimal values and keep oscillating there.
