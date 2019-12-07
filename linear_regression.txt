@@ -7,3 +7,6 @@ the line is minimal. This is known as the best fit line.
 1.batch gradient descent
 2.stochastic gradient descent
 3.using normal equation
+>generally stochastic gradient descent is used over other 2 methods because other 2 are computationally expensive.
+>linear regression has only one global, and no other local, optima; thusgradient descent always converges (assuming the learning rate α 
+is not too large) to the global minimum.since,cost function J is a convex quadratic function.
