@@ -14,3 +14,5 @@
 13.df[df.columns[8]] : selecting column by its index 
 14.data[data.columns] = data[data.columns].replace(0,np.NaN): replacing 0 values in selected columns with nan.
 15.df.fillna(0) : this command fill replace the nan values with 0 in entire dataset
+16.d = {'Y': 1, 'N': 0}
+  df['Hired'] = df['Hired'].map(d) :we can use dict & map to convert categorical data to numeric data this will map Y as 1 in hired attr.
