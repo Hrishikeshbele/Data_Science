@@ -16,3 +16,5 @@
 15.df.fillna(0) : this command fill replace the nan values with 0 in entire dataset
 16.d = {'Y': 1, 'N': 0}
   df['Hired'] = df['Hired'].map(d) :we can use dict & map to convert categorical data to numeric data this will map Y as 1 in hired attr.
+17.colnames=['TIME', 'X', 'Y', 'Z'] 
+  user1 = pd.read_csv('dataset/1.csv', names=colnames, header=None) : to give name of headers in df while reading df
