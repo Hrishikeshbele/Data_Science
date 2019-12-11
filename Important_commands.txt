@@ -22,3 +22,4 @@
 19.df.loc[i,:]=1,2,3 : adding new row at ith position into dataframe 
 20. df.loc[:,'foo'] = 42: this commands add 42 to all rows of foo column
 21.movieProperties = ratings.groupby('movie_id').agg({'rating': [np.size, np.mean]}) : will group entire dataset by movie ID and calculate    total no of ratings and average rating for each movie corresponding to rating column in ratings dataframe.
+   >movieProperties['rating']['size'] :accessing size column 
