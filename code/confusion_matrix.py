@@ -1,4 +1,4 @@
-1. multiclass confusion matrix: https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2
+# 1. multiclass confusion matrix: https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2
 
 #this function creates confusion matrix where rows are predicted value and columns are actual value
 def create_conf_matrix(expected, predicted, n_classes):
