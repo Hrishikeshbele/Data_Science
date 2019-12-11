@@ -14,6 +14,9 @@ left cell. Finally, we need to tell our subplot to take up two of our three rows
 ex. matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None)
  >s: The marker size,c : sequence of color,marker:The marker style,cmap :cmap is only used if c is an array of floats.
  
-4. plt.plot:
+4. plots:
 >plot joins the dots with a line by default (unless you deactivate the line).typically suited to data series of the same type.
 ex. plot(x, y, 'bo')  # plot x and y using blue circle markers
+
+5.histogram:
+ex.plt.hist(values, 50) 3plot histogram with values vector and 50 bins
