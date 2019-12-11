@@ -1,5 +1,9 @@
-1.Machine learning uses only numeric values (float or int data type). However, data sets often contain the object data type 
+> Machine learning uses only numeric values (float or int data type). However, data sets often contain the object data type 
  that needs to be transformed into numeric data type.
+>ifcategorical variable has too many levels. This pulls down performance level of the model. For example, a cat.variable “adress”.
+>if most of the observations in data set there is only one level. Variables with such levels fail to make a positive impact on model performance due to very low variation.
+
+ 1.One Hot Encoding:
  >one of the way to adress this is to use One Hot Encoder:
   from sklearn.preprocessing import OneHotEncoder
   onehotencoder = OneHotEncoder(categorical_features = [0])
