@@ -19,3 +19,4 @@
 17.colnames=['TIME', 'X', 'Y', 'Z'] 
   user1 = pd.read_csv('dataset/1.csv', names=colnames, header=None) : to give name of headers in df while reading df 
 18.x = np.arange(-3, 3, 0.001): parameter values-(start,stop,step_size) generate values from start to stop with diff of step_size
+19.df.loc[i,:]=1,2,3 : adding new row at ith position into dataframe 
