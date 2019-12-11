@@ -8,6 +8,7 @@ link- https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for
 >For ordinal columns try Ordinal (Integer), Binary, OneHot, LeaveOneOut, and Target.For regression tasks, Target and LeaveOneOut probably won’t work well.
 
  1.One Hot Encoding:
+ >https://medium.com/hugo-ferreiras-blog/dealing-with-categorical-features-in-machine-learning-1bb70f07262d
  >one of the way to adress this is to use One Hot Encoder:
   from sklearn.preprocessing import OneHotEncoder
   onehotencoder = OneHotEncoder(categorical_features = [0])
