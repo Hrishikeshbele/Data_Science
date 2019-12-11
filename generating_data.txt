@@ -1,7 +1,10 @@
-# Generate Clean data 
+1. # Generate Clean data 
 1.flip_y: we can set to some value for noisy data
 2.n_redundant :Adding Non-Informative features to check if model overfits these useless features.
 3.n_clusters_per_class:to increase complexity of classification you can have multiple clusters of your classes and decrease the separation between classes to force complex non-linear boundary for classifier.
 
 X,y = make_classification(n_samples=10000, n_features=2, n_informative=2,n_redundant=0, n_repeated=0, n_classes=2, n_clusters_per_class=1,
 class_sep=2,flip_y=0,weights=[0.5,0.5], random_state=17)
+
+2. # generate 100k values from uniform distribution with par: (min_value,max_value,size)
+values = np.random.uniform(-10.0, 10.0, 100000)
