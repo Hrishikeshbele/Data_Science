@@ -4,6 +4,8 @@ link- https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for
  that needs to be transformed into numeric data type.
 >ifcategorical variable has too many levels. This pulls down performance level of the model. For example, a cat.variable “adress”.
 >if most of the observations in data set there is only one level. Variables with such levels fail to make a positive impact on model performance due to very low variation.
+>For nominal columns try OneHot, Hashing, LeaveOneOut, and Target encoding. Avoid OneHot for high unique values columns and decision tree-based algorithms.
+>For ordinal columns try Ordinal (Integer), Binary, OneHot, LeaveOneOut, and Target.For regression tasks, Target and LeaveOneOut probably won’t work well.
 
  1.One Hot Encoding:
  >one of the way to adress this is to use One Hot Encoder:
