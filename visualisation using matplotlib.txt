@@ -9,6 +9,11 @@
 >plt.subplot2grid((3, 2), (0, 0), rowspan=2, colspan=1):  split out grid up into 3 rows by 2 columns, and set our starting index to the top
 left cell. Finally, we need to tell our subplot to take up two of our three rows and 1 column .
 
-3.scatterplots:
- matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None)
+3.scatterplots: 
+>scatter draws points without lines connecting them. allows you to apply a different formatting for each data point (color, marker shape, etc...)
+ex. matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None)
  >s: The marker size,c : sequence of color,marker:The marker style,cmap :cmap is only used if c is an array of floats.
+ 
+4. plt.plot:
+>plot joins the dots with a line by default (unless you deactivate the line).typically suited to data series of the same type.
+ex. plot(x, y, 'bo')  # plot x and y using blue circle markers
