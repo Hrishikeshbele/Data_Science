@@ -1,0 +1,8 @@
+1.random.random(): gives you a random floating point number in the range [0.0, 1.0) (so including 0.0, but not including 1.0 which is 
+also known as a semi-open range).
+
+2.random.uniform(a, b): gives you a random floating point number in the range [a, b].
+
+3.random.seed(10):Seed function is used to save the state of random function, so that it can generate some random numbers on multiple 
+execution of the code on the same machine or on different machines (for a specific seed value).if you provide same seed value before 
+generating random data it will produce the same data.
