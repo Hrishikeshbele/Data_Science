@@ -23,3 +23,4 @@
 20. df.loc[:,'foo'] = 42: this commands add 42 to all rows of foo column
 21.movieProperties = ratings.groupby('movie_id').agg({'rating': [np.size, np.mean]}) : will group entire dataset by movie ID and calculate    total no of ratings and average rating for each movie corresponding to rating column in ratings dataframe.
    >movieProperties['rating']['size'] :accessing size column 
+22.pd.options.display.float_format = '{:.2f}'.format: round values to two decimal places in python pandas 
