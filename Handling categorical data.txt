@@ -6,6 +6,7 @@ link- https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for
 >if most of the observations in data set there is only one level. Variables with such levels fail to make a positive impact on model performance due to very low variation.
 >For nominal columns try OneHot, Hashing, LeaveOneOut, and Target encoding. Avoid OneHot for high unique values columns and decision tree-based algorithms.
 >For ordinal columns try Ordinal (Integer), Binary, OneHot, LeaveOneOut, and Target.For regression tasks, Target and LeaveOneOut probably won’t work well.
+>Note that all Category Encoders impute missing values automatically by default.
 
  1.One Hot Encoding:
  >https://medium.com/hugo-ferreiras-blog/dealing-with-categorical-features-in-machine-learning-1bb70f07262d
