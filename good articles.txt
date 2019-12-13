@@ -1,0 +1,2 @@
+1.solving mismatch in train and test set after encoding:
+https://medium.com/@vaibhavshukla182/how-to-solve-mismatch-in-train-and-test-set-after-categorical-encoding-8320ed03552f
