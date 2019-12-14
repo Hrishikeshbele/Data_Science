@@ -1,3 +1,4 @@
+> saving figure: plt.savefig('C:\\Users\\Frank\\MyPlot.png', format='png')
 1.subplots:
 >so if you define a subplot as (2,3,1), that means to break the subplot into a 2 x 3 grid, and place the new subplot in the
  first cell of that grid.The last number indicates which of those cells to use here 1.
