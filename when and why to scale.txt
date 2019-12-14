@@ -2,6 +2,7 @@ reference:1. https://medium.com/greyatom/why-how-and-when-to-scale-your-features
           2.imp: https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02
 pro tips:
 1.knn,svm ,nueral network need feature scaling 
+2.egressions don't work well with ordinal values
 
 Why Scaling:
 Most of the times, your dataset will contain features highly varying in magnitudes, units and range. But since, most of the machine 
@@ -13,11 +14,17 @@ How to Scale Features:
 
 There are four common methods to perform Feature Scaling.
 1.Standardisation:
-Standardisation replaces the values by their Z scores.This redistributes the features with their mean μ = 0 and standard deviation σ =1 .
-sklearn.preprocessing.scale helps us implementing standardisation in python.
+Standardisation replaces the values by their Z scores.This redistributes the features with their mean μ = 0 and standard deviation σ =1 .sklearn.preprocessing.scale helps us implementing standardisation in python.
+'''
+from sklearn.preprocessing import StandardScaler
+scale = StandardScaler()
+X=scale.fit_transform(X)
+'''
+
 2. Mean Normalisation:
 This distribution will have values between -1 and 1 with μ=0.Standardisation and Mean Normalization can be used for algorithms 
 that assumes zero centric data like Principal Component Analysis(PCA).
+
 3. Min-Max Scaling:
 This scaling brings the value between 0 and 1.
 ''' code:
