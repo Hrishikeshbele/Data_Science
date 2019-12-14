@@ -24,3 +24,6 @@ ex. plot(x, y, 'bo')  # plot x and y using blue circle markers
 
 5.histogram:
 ex.plt.hist(values, 50) 3plot histogram with values vector and 50 bins
+
+6.pie chart:values represent % of portion to each label ,color represent color of each portion and explode to show pulled out parts
+ex.plt.pie(values,colors=colors,labels=labels,explode=explode)
