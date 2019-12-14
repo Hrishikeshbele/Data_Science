@@ -27,3 +27,4 @@
 23.to drop columns: 1.df.drop(['B', 'C'], axis=1), 2. df.drop(columns=['B', 'C']) 
    to drop rows: 1. df.drop([0, 1])  , pars: 1.axis=default:0(row), 1(col) , 2.inplace=default: False(doesn't affect orig df)
 24. plt.savefig('path', format='png'): saving plot as png at given path
+25.df.sort_values(['Years Experience']):Sorting your DataFrame by a specific column 
