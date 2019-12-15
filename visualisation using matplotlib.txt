@@ -1,4 +1,4 @@
-> 1.'%matplotlib inline' in a Notebook causes plots to be shown as static images, only 1 call to %matplotlib inline is required.           2. '%matplotlib notebook' in a Notebook enables some interactive features.you have to call this before every plot otherwise I get a     non-rendered object in return.Another way to look at it is that the inline backend effectively closes thefigure object after executing   each cell, while the notebook backend leaves the figure object open.
+> 1.'%matplotlib inline' in a Notebook causes plots to be shown as static images, only 1 call to %matplotlib inline is required.          2. '%matplotlib notebook' in a Notebook enables some interactive features.you have to call this before every plot otherwise I get a     non-rendered object in return.Another way to look at it is that the inline backend effectively closes thefigure object after executing   each cell, while the notebook backend leaves the figure object open.
 
 > diff styles in matplotlib: https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html 
 > saving figure: plt.savefig('C:\\Users\\Frank\\MyPlot.png', format='png')
