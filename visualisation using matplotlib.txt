@@ -38,3 +38,9 @@ ex. plt.scatter(X,Y)
 
 9.boxplot:
 ex.plt.boxplot(x)
+
+10.contour plot: to Plot contours. 
+ex. plt.contourf(x,y,z, levels=[10, 30, 50])
+pars: 1.z=height values over which the contour is drawn
+      2.levels=Determines the number and positions of the contour lines / regions.
+      3.x,y=The coordinates of the values in Z
