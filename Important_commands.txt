@@ -30,3 +30,4 @@
 25.df.sort_values(['Years Experience']):Sorting your DataFrame by a specific column 
 26.numpy.polyfit(x, y, deg) :Fits a polynomial of degree deg to points (x, y) and Returns a vector of coefficients of deg degree polynomial that minimises the squared error.
 27.numpy.poly1d(c):Constructs the n degree polynomial from given coefficient vector c.
+28.movieRatings.corrwith(starWarsRatings) :computes the pairwise correlation of Star Wars' vector of user rating with every other movie.Computes pairwise correlation between rows or columns of DataFrame with rows or columns of DataFrame 
