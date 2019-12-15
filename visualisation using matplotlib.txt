@@ -29,7 +29,7 @@ ex.plt.hist(values, 50) #plot histogram with values vector and 50 bins
 values represent % of portion to each label ,color represent color of each portion and explode to show pulled out parts
 ex.plt.pie(values,colors=colors,labels=labels,explode=explode)
 
-7.bar chart:,
+7.bar chart:
 pars: (x coordinates of the bars, values at bars, color of each bar)
 ex. plt.bar(range(0,5), values, color= colors)
 
@@ -39,7 +39,8 @@ ex. plt.scatter(X,Y)
 9.boxplot:
 ex.plt.boxplot(x)
 
-10.contour plot: to Plot contours. 
+10.contour plot: 
+>to Plot contours. 
 ex. plt.contourf(x,y,z, levels=[10, 30, 50])
 pars: 1.z=height values over which the contour is drawn
       2.levels=Determines the number and positions of the contour lines / regions.
