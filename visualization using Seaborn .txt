@@ -5,18 +5,21 @@
   figure out the settings that make plots attractive
 2.Matplotlib functions don’t work well with dataframes, whereas seaborn does
 
-A)Scatterplot using Seaborn:
+1)Scatterplot using Seaborn:
 Ex:
   import seaborn as sns
   sns.relplot(x="TID", y="Price",hue = "Property Type", data = df_train)
   
-B)Jitter Plot:Jitter is the deviation from the true value.
+2)Jitter Plot:Jitter is the deviation from the true value.
 ex:
   sns.catplot(x="education", y="avg_training_score", hue = "is_promoted", data=df2)
-C)Boxplot using seaborn:
+3)Boxplot using seaborn:
   >when use hue semantic with boxplot, it is leveled along the categorical axis so they don’t overlap.it creates box plot for each type in    hue column.
 ex:
   sns.catplot(x="education", y="avg_training_score", kind = "box", data=df2)
+  
+4)seaborn.regplot():Plot data and a linear regression model fit.
+ex.sns.regplot(x, y , order=1, scatter_kws={'color':'r'})  #scatter_kws gives red color to data points
   
 
 
