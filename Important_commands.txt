@@ -28,3 +28,5 @@
    to drop rows: 1. df.drop([0, 1])  , pars: 1.axis=default:0(row), 1(col) , 2.inplace=default: False(doesn't affect orig df)
 24. plt.savefig('path', format='png'): saving plot as png at given path
 25.df.sort_values(['Years Experience']):Sorting your DataFrame by a specific column 
+26.numpy.polyfit(x, y, deg) :Fits a polynomial of degree deg to points (x, y) and Returns a vector of coefficients of deg degree polynomial that minimises the squared error.
+27.numpy.poly1d(c):Constructs the n degree polynomial from given coefficient vector c.
