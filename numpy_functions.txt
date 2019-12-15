@@ -5,3 +5,10 @@ ex. x = np.arange(-5, 5, 0.1)
     y = np.arange(-5, 5, 0.1)
     xx, yy = np.meshgrid(x, y, sparse=True) # sparse=true,make sparse output arrays
     xx: returns x coordinates of created grid, yy : returns y coordinates of created grid
+    
+2.numpy.ndenumerate(arr):Multidimensional array index iterator.Return an iterator yielding pairs of array coordinates and values.
+ ex. a = np.array([[1, 2], [3, 4]])
+     for index, x in np.ndenumerate(a):
+         print(index, x)
+   o/t:>> (0, 0) 1
+       >> (0, 1) 2
