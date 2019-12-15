@@ -12,3 +12,8 @@ ex. x = np.arange(-5, 5, 0.1)
          print(index, x)
    o/t:>> (0, 0) 1
        >> (0, 1) 2
+3.numpy.ravel() :returns contiguous flattened array(1D array with all the input-array elements and with the same type as it). 
+it is equivalent to arr.reshape(-1).
+ex. x = np.array([[1, 2, 3], [4, 5, 6]])
+    np.ravel(x)
+o/t >> array([1, 2, 3, 4, 5, 6])
