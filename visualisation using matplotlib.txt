@@ -40,7 +40,7 @@ pars: (x coordinates of the bars, values at bars, color of each bar)
 ex. plt.bar(range(0,5), values, color= colors)
 
 8.scatter plot:
-ex. plt.scatter(X,Y)
+ex. plt.scatter(X,Y,c='r') # c par for color
 
 9.boxplot:
 ex.plt.boxplot(x)
