@@ -60,3 +60,9 @@ The purpose of using plt.figure() is to create a figure object.It is necessary t
     ax2 = fig.add_subplot(122, projection='3d')
     plt.show()
 
+12.3d surface plot: Surface plot shows a functional relationship between a designated dependent variable (Y), and two independent variables (X and Z).
+ex. fig = plt.figure()
+    ax = plt.axes(projection='3d')
+    ax.plot_surface(x, y, z,cmap='viridis', edgecolor='none')
+    ax.set_title('Surface plot')
+    plt.show()
