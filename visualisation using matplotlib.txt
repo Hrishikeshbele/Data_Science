@@ -5,6 +5,8 @@
 > adding grid and legend to figure: axes = plt.axes() 
                                 axes.grid()
                                 axes.legend(['student', 'non-student'], loc=2)
+                                axes.set_ylabel('Balance')
+                                axes.set_ylim(ymax=1550)
 >cmap: is the colormap that should be used to display the plot.
 ex. 1.plt.cm.Set1 2.plt.cm.jet
 link: https://matplotlib.org/examples/color/colormaps_reference.html  (# diff set of colormap)
