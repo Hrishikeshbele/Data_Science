@@ -24,10 +24,14 @@ link: https://matplotlib.org/examples/color/colormaps_reference.html  (# diff se
 >plt.subplot2grid((3, 2), (0, 0), rowspan=2, colspan=1):  split out grid up into 3 rows by 2 columns, and set our starting index to the top
 left cell. Finally, we need to tell our subplot to take up two of our three rows and 1 column .
 
-3.scatterplots: 
+3.scatter plots: 
 >scatter draws points without lines connecting them. allows you to apply a different formatting for each data point (color, marker shape, etc...)
-ex. matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None)
+ex.1.plt.scatter(x, y, s=None, c=None, marker=None, cmap=None)
  >s: The marker size,c : sequence of color,marker:The marker style,cmap :cmap is only used if c is an array of floats.
+  2. plt.scatter(X,Y,c='r',facecolor='None', edgecolor='r',marker='+') 
+    #c par for color,edge color of the marker,facecolor/centralcolor of marker ,marker determine the shape of data points
+    plt.legend()  # detect legends and display it
+    plt.ylim(5,55) # set y axis limit
  
 4. plots:
 >plot joins the dots with a line by default (unless you deactivate the line).typically suited to data series of the same type.
@@ -44,11 +48,14 @@ ex.plt.pie(values,colors=colors,labels=labels,explode=explode)
 pars: (x coordinates of the bars, values at bars, color of each bar)
 ex. plt.bar(range(0,5), values, color= colors)
 
-8.scatter plot:
-ex. plt.scatter(X,Y,c='r',facecolor='None', edgecolor='r',marker='+') 
-    #c par for color,edge color of the marker,facecolor/centralcolor of marker ,marker determine the shape of data points
-    plt.legend()  # detect legends and display it
-    plt.ylim(5,55) # set y axis limit
+8. subplot:
+Create a figure and a set of subplots.returns fig and array of Axes objects.
+ex. 
+# Creates two subplots and unpacks the output array immediately
+f, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
+ax1.plot(x, y)
+ax1.set_title('Sharing Y axis')
+ax2.scatter(x, y)
 
 9.boxplot:
 ex.plt.boxplot(x)
@@ -75,10 +82,4 @@ ex. fig = plt.figure()
     ax.set_title('Surface plot')
     plt.show()
     
-13. subplot:Create a figure and a set of subplots.returns fig and array of Axes objects.
-ex. 
-# Creates two subplots and unpacks the output array immediately
-f, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
-ax1.plot(x, y)
-ax1.set_title('Sharing Y axis')
-ax2.scatter(x, y)
+
