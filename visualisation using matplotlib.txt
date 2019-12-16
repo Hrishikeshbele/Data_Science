@@ -45,7 +45,7 @@ pars: (x coordinates of the bars, values at bars, color of each bar)
 ex. plt.bar(range(0,5), values, color= colors)
 
 8.scatter plot:
-ex. plt.scatter(X,Y,c='r') # c par for color
+ex. plt.scatter(X,Y,c='r',facecolor='None', edgecolor='r') #c par for color,edge color of the marker,facecolor/centralcolor of marker 
     plt.legend()  # detect legends and display it
     plt.ylim(5,55) # set y axis limit
 
