@@ -48,3 +48,6 @@ ex. plt.contourf(x,y,z, levels=[10, 30, 50])
 pars: 1.z=height values over which the contour is drawn
       2.levels=Determines the number and positions of the contour lines / regions.
       3.x,y=The coordinates of the values in Z
+11.figure:
+The purpose of using plt.figure() is to create a figure object.It is necessary to explicitly use plt.figure() when we want to tweak the size of the figure rather than default size and when we want to add multiple Axes objects in a single figure.
+    ex. plt.figure(figsize=(12,8))
