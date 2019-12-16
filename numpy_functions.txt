@@ -20,3 +20,7 @@ o/t >> array([1, 2, 3, 4, 5, 6])
 
 3.np.linspace(start, stop, num=50) # num:- Number of samples to generate.
 Return evenly spaced numbers over a specified interval.
+
+4.np.arange(start,stop,step):
+ ex. np.arange(3,7,2)
+   >> array([3, 5])
