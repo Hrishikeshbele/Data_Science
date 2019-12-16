@@ -4,6 +4,9 @@
 > saving figure: plt.savefig('C:\\Users\\Frank\\MyPlot.png', format='png')
 > adding grid to figure: axes = plt.axes() 
                                 axes.grid()
+>cmap: is the colormap that should be used to display the plot.
+ex. 1.plt.cm.Set1 2.plt.cm.jet
+link: https://matplotlib.org/examples/color/colormaps_reference.html  (# diff set of colormap)
                                 
 1.subplots:
 >so if you define a subplot as (2,3,1), that means to break the subplot into a 2 x 3 grid, and place the new subplot in the
