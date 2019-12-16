@@ -21,5 +21,8 @@ ex:
 4)seaborn.regplot():Plot data and a linear regression model fit.
 ex.sns.regplot(x, y , order=1, scatter_kws={'color':'r'})  #scatter_kws gives red color to data points
   
+  
+5) pair plot:
+ex sns.pairplot(df)
 
 
