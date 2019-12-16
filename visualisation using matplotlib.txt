@@ -50,4 +50,10 @@ pars: 1.z=height values over which the contour is drawn
       3.x,y=The coordinates of the values in Z
 11.figure:
 The purpose of using plt.figure() is to create a figure object.It is necessary to explicitly use plt.figure() when we want to tweak the size of the figure rather than default size and when we want to add multiple Axes objects in a single figure.
-    ex. plt.figure(figsize=(12,8))
+    ex. fig=plt.figure(figsize=(12,8))
+    #Add a centered title to the figure.
+    fig.suptitle('RSS - Regression coefficients', fontsize=20)
+    #add subplot to figure
+    ax2 = fig.add_subplot(122, projection='3d')
+    plt.show()
+
