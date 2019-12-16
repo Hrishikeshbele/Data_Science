@@ -33,3 +33,4 @@
 28.movieRatings.corrwith(starWarsRatings) :computes the pairwise correlation of Star Wars' vector of user rating with every other movie.Computes pairwise correlation between rows or columns of DataFrame with rows or columns of DataFrame 
 29.scipy.stats.ttest_ind(x,y):This is a two-sided test for the null hypothesis that 2 independent samples have identical average (expected) values. This test assumes that the populations have identical variances by default.returns t-statistics and p-value.
 30.adv = pd.read_csv('Data/Advertising.csv', usecols=[1,2,3,4],na_values='?') : Use usecols when you want to load specific columns into dataframe. use na_values to specify Additional strings to recognize as NA/NaN.
+31.df.pivot(index=, columns=, values=): Return reshaped DataFrame organized by given index and column values.
