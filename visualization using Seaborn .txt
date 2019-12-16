@@ -13,10 +13,13 @@ Ex:
 2)Jitter Plot:Jitter is the deviation from the true value.
 ex:
   sns.catplot(x="education", y="avg_training_score", hue = "is_promoted", data=df2)
+  
 3)Boxplot using seaborn:
   >when use hue semantic with boxplot, it is leveled along the categorical axis so they don’t overlap.it creates box plot for each type in    hue column.
 ex:
-  sns.catplot(x="education", y="avg_training_score", kind = "box", data=df2)
+  1.sns.catplot(x="education", y="avg_training_score", kind = "box", data=df2)
+  2.sns.boxplot('default', 'balance', data=df, orient='v', ax=ax2, palette=c_palette) 
+  #orientation- horizontal(h)/vertical('v') ,palette-Colors to use for the different levels of the hue variable
   
 4)seaborn.regplot():Plot data and a linear regression model fit.
 ex.sns.regplot(x, y ,ax=ax1, order=1, scatter_kws={'color':'r'})  #scatter_kws gives red color to data points, ax- Axes object to draw the plot onto, otherwise uses the current Axes.
