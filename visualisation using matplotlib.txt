@@ -12,6 +12,7 @@ ex. 1.plt.cm.Set1 2.plt.cm.jet
 link: https://matplotlib.org/examples/color/colormaps_reference.html  (# diff set of colormap)
 >adding horizontal line in plot: 
  ex. ax1.hlines(y,xmin,xmax, linestyles='dotted') # Plot horizontal dotted line at y=0 from xmin to xmax.
+>plt.tight_layout: tight_layout automatically adjusts subplot params so that the subplot(s) fits in to the figure area.
                                 
 1.adding subplots:
 >so if you define a subplot as (2,3,1), that means to break the subplot into a 2 x 3 grid, and place the new subplot in the
