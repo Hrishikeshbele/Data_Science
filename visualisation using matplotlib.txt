@@ -2,8 +2,9 @@
 
 > diff styles in matplotlib: https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html 
 > saving figure: plt.savefig('C:\\Users\\Frank\\MyPlot.png', format='png')
-> adding grid to figure: axes = plt.axes() 
+> adding grid and legend to figure: axes = plt.axes() 
                                 axes.grid()
+                                axes.legend(['student', 'non-student'], loc=2)
 >cmap: is the colormap that should be used to display the plot.
 ex. 1.plt.cm.Set1 2.plt.cm.jet
 link: https://matplotlib.org/examples/color/colormaps_reference.html  (# diff set of colormap)
