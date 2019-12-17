@@ -12,4 +12,5 @@ other hand, k-fold cross validation would be a better.
 
 
 code:
-1. sklearn.model_selection.cross_val_score(model, X, y, cv=3 )
+1. sklearn.model_selection.cross_val_score(model, X, y, cv=3 ) #cv=5( default)
+ >For integer/None inputs, if the estimator is a classifier and y is either binary or multiclass, StratifiedKFold is used. In all other cases, KFold is used.Stratification is the process of rearranging the data as to ensure each fold is a good representative of the whole. 
