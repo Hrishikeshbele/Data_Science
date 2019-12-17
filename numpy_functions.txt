@@ -39,4 +39,7 @@ Return a new array of given shape and type, filled with zeros.
 ex. np.zeros((2, 1))
     array([[ 0.],
            [ 0.]])
+           
+8.numpy.asmatrix(arr, dtype=None): #dtype-Data-type of the output matrix
+interpret the input as a matrix.it doesn't make copy if the input is already a matrix or an ndarray. 
 
