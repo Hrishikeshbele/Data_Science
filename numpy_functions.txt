@@ -24,3 +24,7 @@ Return evenly spaced numbers over a specified interval.
 4.np.arange(start,stop,step):
  ex. np.arange(3,7,2)
    >> array([3, 5])
+
+5. np.cumsum(a, axis=None, dtype=None): 
+pars:axis-Axis along which the cumulative sum is computed,dtype- of the returned array elms
+this function is used when we want to compute the cumulative sum of array elements along a given axis.
