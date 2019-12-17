@@ -1,0 +1,7 @@
+1.use __  or ** before and after to make text bold/black.
+ex. __text__
+
+2.referencing cells in notebook:
+ steps: 1. - [To some Internal Section](#section_id)  #create the internal hyperlink to the destination
+        2.<a id='section_id'></a>  #define the destination cell you want to link and give it an Id
+ 
