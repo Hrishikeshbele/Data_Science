@@ -44,3 +44,5 @@ ex. np.zeros((2, 1))
 interpret the input as a matrix.it doesn't make copy if the input is already a matrix or an ndarray. 
 
 9.numpy.digitize(x, bins, right=False):Return the indices of the bins to which each value in input array belongs.
+10.numpy.logspace(start, stop, num=50, endpoint=True, base=10.0):
+Return numbers spaced evenly on a log scale.
