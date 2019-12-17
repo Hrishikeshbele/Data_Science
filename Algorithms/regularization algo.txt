@@ -3,4 +3,4 @@ This model solves a regression model where the loss function is the linear least
 the l2-norm. 
 ex.1. clf = Ridge(alpha=1.0,solver='auto', random_state=None) # aplpha is regularization parameter
    2. Ridge regression with built-in cross-validation:
-      ridgecv = RidgeCV(alphas=(0.1, 1.0, 10.0), cv=None, scoring='mean_squared_error') #default cv is Generalized Cross-Validation (also       called as efficient  leave one out algo)
+      ridgecv = RidgeCV(alphas=(0.1, 1.0, 10.0), cv=None, scoring='mean_squared_error') #default cv is Generalized Cross-Validation (also  called as efficient  leave one out algo)
