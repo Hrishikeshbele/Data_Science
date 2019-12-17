@@ -4,3 +4,7 @@ the l2-norm.
 ex.1. clf = Ridge(alpha=1.0,solver='auto', random_state=None) # aplpha is regularization parameter
    2. Ridge regression with built-in cross-validation:
       ridgecv = RidgeCV(alphas=(0.1, 1.0, 10.0), cv=None, scoring='mean_squared_error') #default cv is Generalized Cross-Validation (also  called as efficient  leave one out algo)
+
+2.Lasso Regression:
+Linear Model trained with L1-norm regularization.
+ex. sklearn.linear_model.Lasso(alpha=1.0,random_state=None)
