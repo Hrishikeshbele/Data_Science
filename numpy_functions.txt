@@ -28,3 +28,15 @@ Return evenly spaced numbers over a specified interval.
 5. np.cumsum(a, axis=None, dtype=None): 
 pars:axis-Axis along which the cumulative sum is computed,dtype- of the returned array elms
 this function is used when we want to compute the cumulative sum of array elements along a given axis.
+
+6.numpy.ones(shape, dtype=float): 
+Return a new array of given shape and type, filled with ones.
+ex. np.ones((2, 1))
+   array([[1.],
+         [1.]])
+7.numpy.zeros(shape, dtype=float):
+Return a new array of given shape and type, filled with zeros.
+ex. np.zeros((2, 1))
+    array([[ 0.],
+           [ 0.]])
+
