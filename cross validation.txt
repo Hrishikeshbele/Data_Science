@@ -9,3 +9,7 @@ series of k iteration of evaluation is carried out and at i'th iteration i'th fo
 
 >leave one out cross validation is better when you have a small set of training data.If you have a large amount of training data on the 
 other hand, k-fold cross validation would be a better.
+
+
+code:
+1. sklearn.model_selection.cross_val_score(model, X, y, cv=3 )
