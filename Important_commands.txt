@@ -35,3 +35,4 @@
 30.adv = pd.read_csv('Data/Advertising.csv', usecols=[1,2,3,4],na_values='?') : Use usecols when you want to load specific columns into dataframe. use na_values to specify Additional strings to recognize as NA/NaN.
 31.df.pivot(index=, columns=, values=): Return reshaped DataFrame organized by given index and column values.
 32.pandas.cut(x, bins,right=True,precision=3, retbins=False, labels=None):Bin values into discrete intervals.useful for going from a continuous variable to a categorical variable. 
+33.numpy.digitize(x, bins, right=False):Return the indices of the bins to which each value in input array belongs.
