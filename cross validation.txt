@@ -1,0 +1,11 @@
+1.leave one out cross validation:
+here dataset is divided into as many fold as there are instances.Leave-one-out fits the model with n-1 observations and classifies the 
+remaining 1 observation this process is repeated another n-1 times .it is extreme case of k-fold cross-validation.
+here you get estimates of test error with lower bias, and higher variance because each training set contains n-1 examples, which means that
+you are using almost the entire training set in each iteration and The opposite is true with k-fold CV.
+
+2.k-fold cross validation:
+series of k iteration of evaluation is carried out and at i'th iteration i'th fold is used as test data and other folds as training data.
+
+>leave one out cross validation is better when you have a small set of training data.If you have a large amount of training data on the 
+other hand, k-fold cross validation would be a better.
