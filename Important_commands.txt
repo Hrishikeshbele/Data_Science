@@ -36,3 +36,4 @@
 31.df.pivot(index=, columns=, values=): Return reshaped DataFrame organized by given index and column values.
 32.pandas.cut(x, bins,right=True,precision=3, retbins=False, labels=None):Bin values into discrete intervals.useful for going from a continuous variable to a categorical variable. 
 33.numpy.digitize(x, bins, right=False):Return the indices of the bins to which each value in input array belongs.
+34.cm_df.index.name = 'Predicted' , cm_df.columns.name = 'True': giving names to columns and index in dataframe
