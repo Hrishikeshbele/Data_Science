@@ -1,1 +1,6 @@
-
+1.ROC Curve:
+ROC is a plot of signal (True Positive Rate) against noise (False Positive Rate). The model performance is determined by looking at the area under the ROC curve (or AUC). The best possible AUC is 1 while the worst is 0.5.it can be used for parameter tuning.
+ex. fpr, tpr, threshold = metrics.roc_curve(y_test, y_pred) #this implementation is restricted to the binary classification task
+    #computes auc 
+    roc_auc = metrics.auc(fpr, tpr)
+    >>0.75
