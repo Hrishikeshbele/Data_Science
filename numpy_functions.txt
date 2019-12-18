@@ -36,7 +36,7 @@ ex. np.ones((2, 1))
          [1.]])
 7.numpy.zeros(shape, dtype=float):
 Return a new array of given shape and type, filled with zeros.
-ex. np.zeros((2, 1))
+ex. np.zeros((2, 1))       
     array([[ 0.],
            [ 0.]])
            
@@ -54,5 +54,5 @@ ex.1.np.repeat([1,3], 2)
 11.numpy.random.choice(a, size=None, replace=True, p=None):
 pars: https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.choice.html
 Generates a random sample from a given 1-D array.
-ex. np.random.choice([-1,0,1], 2)
-   >> array([0,-1])
+ex. 1.np.random.choice([-1,0,1], 2)  2.np.random.choice(5, 3): >>array([0, 3, 4])
+   >> array([0,-1])                     
