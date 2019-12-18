@@ -46,3 +46,7 @@ interpret the input as a matrix.it doesn't make copy if the input is already a m
 9.numpy.digitize(x, bins, right=False):Return the indices of the bins to which each value in input array belongs.
 10.numpy.logspace(start, stop, num=50, endpoint=True, base=10.0):
 Return numbers spaced evenly on a log scale.
+
+10.np.repeat(a, repeats): Repeat elements of an array.
+ex.1.np.repeat([1,3], 2)     
+   >>array([1, 1, 3, 3])
