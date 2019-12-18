@@ -64,3 +64,8 @@ ex. np.vstack((a,b))
 13.numpy.hstack(tuple of arr):Stack arrays in sequence horizontally (column wise).
 ex. np.hstack((a,b))
   >>array([1, 2, 3, 2, 3, 4])
+
+14.numpy.random.randn((dimention)):Return a sample (or samples) from the “standard normal” distribution.
+ex. np.random.randn(2,3)
+  >>[-0.64863636 -0.28730311 -0.56747547]
+    [ 0.9427455  -0.88447682  0.2324423 ]
