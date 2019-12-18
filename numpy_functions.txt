@@ -50,3 +50,9 @@ Return numbers spaced evenly on a log scale.
 10.np.repeat(a, repeats): Repeat elements of an array.
 ex.1.np.repeat([1,3], 2)     
    >>array([1, 1, 3, 3])
+   
+11.numpy.random.choice(a, size=None, replace=True, p=None):
+pars: https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.choice.html
+Generates a random sample from a given 1-D array.
+ex. np.random.choice([-1,0,1], 2)
+   >> array([0,-1])
