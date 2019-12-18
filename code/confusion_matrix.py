@@ -10,3 +10,12 @@ def create_conf_matrix(expected, predicted, n_classes):
 def calc_accuracy(conf_matrix):
     t = sum(sum(l) for l in conf_matrix)
     return sum(conf_matrix[i][i] for i in range(len(conf_matrix))) / t
+
+
+#confusion matrix as dataframe from build-in function in sklearn
+svc = SVC(kernel='linear')
+cm = confusion_matrix(y_train, svc.predict(X_train))
+cm_df = pd.DataFrame(cm.T, index=svc.classes_, columns=svc.classes_)
+cm_df.index.name = 'Predicted'
+cm_df.columns.name = 'True'
+print(cm_df)
