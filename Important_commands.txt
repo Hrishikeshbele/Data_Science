@@ -12,7 +12,7 @@
 11.dataset.isnull().sum(): will give no of null values in each column
 12.df.columns.difference(['Class']: select the column except 'class' column, you can also give multiple entries
 13.df[df.columns[8]] : selecting column by its index 
-14.data[data.columns] = data[data.columns].replace(0,np.NaN): replacing 0 values in selected columns with nan.
+14.data[data.columns] = data[data.columns].replace(0,np.NaN,inplace=False): replacing 0 values in selected columns with nan.
 15.df.fillna(0) : this command fill replace the nan values with 0 in entire dataset
 16.d = {'Y': 1, 'N': 0}
   df['Hired'] = df['Hired'].map(d) :we can use dict & map to convert categorical data to numeric data this will map Y as 1 in hired attr.
