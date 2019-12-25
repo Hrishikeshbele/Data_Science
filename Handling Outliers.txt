@@ -24,6 +24,8 @@ data = data[(data['column'] < upper_lim) & (data['column'] > lower_lim)]
 3.An Outlier Dilemma: Drop or Cap
 Another option for handling outliers is to cap them instead of dropping. So you can keep your data size and at the end of the day, it might be better for the final model performance.
 On the other hand, capping can affect the distribution of the data, thus it better not to exaggerate it.
+4.log transformation of data:
+As we take the log transformation, it does not affect the smaller values much, but reduces the larger values. So, we get a distribution similar to normal distribution.
 
 #code for Capping the outlier rows with 5 Percentiles
 upper_lim = data['column'].quantile(.95)
