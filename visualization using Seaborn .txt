@@ -26,6 +26,9 @@ ex.sns.regplot(x, y ,ax=ax1, order=1, scatter_kws={'color':'r'})  #scatter_kws g
   
   
 5) pair plot:
-ex sns.pairplot(df)
+ex. sns.pairplot(df)
+
+6.distplot:Flexibly plot a univariate distribution of observations.
+ex. sns.distplot(train['ApplicantIncome'])
 
 
