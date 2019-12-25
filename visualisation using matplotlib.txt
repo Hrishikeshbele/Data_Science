@@ -88,5 +88,16 @@ ex. fig = plt.figure()
     ax.plot_surface(x, y, z,cmap='viridis', edgecolor='none')
     ax.set_title('Surface plot')
     plt.show()
-    
+  
+  
+13.subplot:
+Add a subplot to the current figure.
+ex. 
+# first you have to make the figure
+fig = plt.figure(1)
+
+# now you have to create each subplot individually
+ax1 = plt.subplot(211)
+ax2 = plt.subplot(212)
+plt.show()
 
