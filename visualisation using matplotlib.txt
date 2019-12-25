@@ -18,6 +18,8 @@ link: https://matplotlib.org/examples/color/colormaps_reference.html  (# diff se
 >plt.text(1, 1, 'figure1', fontsize=12): add text at position 1,1 ( upper-right ) in plot
 >plt.annotate('R1', xy=(2,117.5), fontsize='xx-large'): annotate/add text('R1') at xy position (https://matplotlib.org/3.1.1/tutorials/text/annotations.html)
 >twinx() and twiny() is used to plot twin axes which share axis with x & y axis resp.
+>differences between subplot() and subplots(): 
+  https://stackoverflow.com/questions/52214776/python-matplotlib-differences-between-subplot-and-subplots
                                 
 1.adding subplots:
 >so if you define a subplot as (2,3,1), that means to break the subplot into a 2 x 3 grid, and place the new subplot in the
