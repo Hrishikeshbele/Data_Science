@@ -1,3 +1,4 @@
+> you can directly paste link in markdown cell it will interpreted as link not as simple text.
 1.use __  or ** before and after to make text bold/black.
 ex. __text__
 
