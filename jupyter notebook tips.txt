@@ -10,3 +10,7 @@ ex. <a>problem statement<a/>
 
 4.adding web link to text:  syntax- [text](link)
 ex. [Hackathon page](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/)
+
+5.adding bullet points: add '-' before text 
+ex. - LoanAmount 
+
