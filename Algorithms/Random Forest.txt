@@ -1,0 +1,4 @@
+1.feature importances attribute using random forest model:
+ex.
+# extract feature importances, convert into a Series
+importances = pd.Series(model.feature_importances_, index=X.columns)
