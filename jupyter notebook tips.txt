@@ -7,3 +7,6 @@ ex. __text__
  
 3.display text in sky blue color:
 ex. <a>problem statement<a/>
+
+4.adding web link to text:  syntax- [text](link)
+ex. [Hackathon page](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/)
