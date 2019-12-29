@@ -36,6 +36,9 @@ lower_lim = data['column'].quantile(.05)
 data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
 
+5.taking rank of data points to decrease the effect of outliers: 
+> linear models, knn and nueral networks can benefit from this transformation
+ex. scipy.stats.rankdata(df)
 
 visualization:
 1.Box plot-(for single variable)
