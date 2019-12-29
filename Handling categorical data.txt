@@ -18,3 +18,10 @@ link- https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for
 3.d = {'proper': 0, 'less_proper': 1, 'improper':2,'critical':3,'very_crit':4}
   df['has nurse'] = df['has nurse'].map(d) #will map values in has nurse attr w.r.t dict d.
 4.train['city'] = train['city'].astype('category').cat.codes
+5.frequency encoding:
+ex. #finding no of entries corrsp to each unique values in feature colm
+    encoding=titanic.groupby('feature').size()
+    #calculating perc from size of each unique value
+    encoding=encoding/len(titanic)
+    #map the above encoding value to corrsp unique value in feature colm and create new feature/colm
+    titanic['enc_feat']=titanic.feature.map(encoding)
