@@ -1,7 +1,7 @@
 pro tips:
 >If the information contained in the variable is not that high, you can drop the variable if it has more than 50% missing values. sometimes imputation of even 20 - 30% missing values provide's better results - the famous Titanic dataset on Kaggle being one such case. Age is missing in ~20% of cases, but you benefit by imputing them rather than ignoring the variable.
 > you should be very carefull during value imputation if you want to generate new features after imputation because it can lead to   
-  misleading values.
+  misleading values.so avoid imputation before feature generation.
 
 
 1.delete rows/columns:
