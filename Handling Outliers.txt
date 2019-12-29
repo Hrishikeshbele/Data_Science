@@ -3,6 +3,7 @@
  >use Density-based anomaly detection( kNN & LOF based methods),Clustering-based anomaly detection(k-Means clustering),
   Autoencoder-based anomaly detection or using visualisation.
  >the best way to detect the outliers is to demonstrate the data visually, statistical methodologies are open to making mistakes but they   are fast.
+ >some times you can treat outliers as measing values and replace them with more proper values.
  
 >>some Statistical methodologies for outliers detection:
 1.Outlier Detection with Standard Deviation
