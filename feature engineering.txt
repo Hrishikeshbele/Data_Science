@@ -1,6 +1,7 @@
 goals:
   1.Preparing the proper input dataset, compatible with the machine learning algorithm requirements.
   2.Improving the performance of machine learning models.
+> ways to produce new features: 1. from prior knowledge about fiture 2.EDA
   
 1.Feature Split:
 By extracting the utilizable parts of a column into new features:We enable machine learning algorithms to comprehend them,Improve model    performance by uncovering potential information.Split function is a good option, however, there is no one way of splitting features.
