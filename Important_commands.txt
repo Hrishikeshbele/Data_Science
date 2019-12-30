@@ -40,3 +40,4 @@
 35.df['diagnosis'].value_counts(normalize=True):percentage distribution of each category can be calculated by setting the normalize=True to show percentage of each category instead of count number.
 36.pandas.crosstab(df['Gender'],df['Loan_Status'], normalize=False):Compute a simple cross tabulation of two (or more) factors. By default computes a frequency table of the factors unless an array of values and an aggregation function are passed.
 37. df.div(10): divide each element in dataframe by 10
+38. int(list[:,0]>0) : performing boolen operation on 0th colmn.will return list containing 1 and 0
