@@ -41,3 +41,4 @@
 36.pandas.crosstab(df['Gender'],df['Loan_Status'], normalize=False):Compute a simple cross tabulation of two (or more) factors. By default computes a frequency table of the factors unless an array of values and an aggregation function are passed.
 37. df.div(10): divide each element in dataframe by 10
 38. int(list[:,0]>0) : performing boolen operation on 0th colmn.will return list containing 1 and 0
+39. sklearn.datasets.make_hastie_10_2(n_samples=12000) :generate data for binary classification with 10  std indp Gaussian features 
