@@ -1,1 +1,9 @@
-
+>> Voting and Averaging Based Ensemble Methods:
+1.Majority Voting
+Every model makes a prediction (votes) for each test instance and the final output prediction is the one that receives more than half of the votes.
+2.Weighted Voting
+Unlike majority voting, where each model has the same rights, we can increase the importance of one or more models. In weighted voting you count the prediction of the better models multiple times. Finding a reasonable set of weights is up to you.
+3.Simple Averaging
+In simple averaging method, for every instance of test dataset, the average predictions are calculated. This method often reduces overfit and creates a smoother regression model. 
+4.Weighted Averaging
+Weighted averaging is a slightly modified version of simple averaging, where the prediction of each model is multiplied by the weight and then their average is calculated. 
