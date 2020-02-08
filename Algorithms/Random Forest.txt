@@ -1,3 +1,10 @@
+'''
+we built each decision tree in random forest with:
+1.using bootstrap samplled dataset(selecting subset of rows using bootstrap sampling)
+2.only considering random subset of atributes at each step while splitting the node 
+3.finally we use majority voting to predict the outcome of random forest
+> step 1+2+3 is called bagging 
+'''
 1.feature importances attribute using random forest model:
 ex.
 # extract feature importances, convert into a Series
