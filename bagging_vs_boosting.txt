@@ -18,7 +18,7 @@ steps in creating ensemble model using bagging:
 2.A base model (weak model) is created on each of these subsets.
 3.The models run in parallel and are independent of each other.
 4.The final predictions are determined by combining the predictions from all the models.
->Common Bagging algorithms:Bagging meta-estimator,Random forest
+>Common Bagging algorithms:Bagging meta-estimator,'Random forest'
 
 B)Boosting:
 Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. 
