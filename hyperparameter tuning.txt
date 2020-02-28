@@ -1,0 +1,17 @@
+> in contrast to model parameters which are learned during training, model hyperparameters are set by the data scientist ahead of training 
+and control implementation aspects of the model. The weights learned during training of a linear regression model are parameters while 
+the number of trees in a random forest is a model hyperparameter.
+>These hyperparameters need to be tuned for each problem because the best model hyperparameters for one particular dataset will not be the best across all datasets. 
+1.In Grid Search,set up a grid of hyperparameter values and for each combination, train a model  and choose the best combination 
+based on the cross validation score.
+2.Random search set up a grid of hyperparameter values and select random combinations to train the model and score. The number of search
+iterations is set based on time/resources.(we have to define the number iterations). 
+
+> it may look like grid search is the better option, compared to the random one, but bare in mind that when the dimensionality is high, 
+the number of combinations you have to search is enormous. For example, to grid-search ten boolean parameters you will have to 
+test 1024 different combinations. That is why random search, sometimes combined with clever heuristics, is often used.
+
+3.Automated Hyperparameter Tuning: use methods such as gradient descent, Bayesian Optimization, or evolutionary algorithms to conduct
+a guided search for the best hyperparameters.
+
+link: https://www.datacamp.com/community/tutorials/parameter-optimization-machine-learning-models
