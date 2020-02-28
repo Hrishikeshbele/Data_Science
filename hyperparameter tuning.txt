@@ -5,7 +5,7 @@ the number of trees in a random forest is a model hyperparameter.
 1.In Grid Search,set up a grid of hyperparameter values and for each combination, train a model  and choose the best combination 
 based on the cross validation score.
 2.Random search set up a grid of hyperparameter values and select random combinations to train the model and score. The number of search
-iterations is set based on time/resources.(we have to define the number iterations). 
+iterations is set based on time/resources.(we have to define the number iterations).library:Hyperopt
 
 > it may look like grid search is the better option, compared to the random one, but bare in mind that when the dimensionality is high, 
 the number of combinations you have to search is enormous. For example, to grid-search ten boolean parameters you will have to 
