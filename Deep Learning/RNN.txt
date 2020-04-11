@@ -1,2 +1,2 @@
 > developed in 1997 and became popular after 2015.
-> rnn works well on sequence data.
+> rnn works well on sequence data(text,time series).
