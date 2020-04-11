@@ -1,0 +1,2 @@
+>introduced in 2006 which is nothing but nn with more hidded layers.earlier people were not able to train nn with more than 2 hidden layer.
+>dnn require large amount of data.
