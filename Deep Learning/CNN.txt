@@ -1,1 +1,1 @@
-> developed in 1990's but became famous after 2012 due to imagenet competition.
+> developed in 1990's but became famous after alexnet won imagenet competition in 2012 .
