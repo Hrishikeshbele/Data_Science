@@ -1,0 +1,21 @@
+1.PCA
+>PCA creates low-dimensional embeddings that best preserves the overall variance of the dataset.
+>One drawback of PCA is that it is a linear projection, meaning it can't capture non-linear dependencies. 
+>The high-dimensional data can be replaced by its projection onto the most important axes. These axes are the ones corresponding to 
+ the largest eigenvalues. 
+ 
+2.SVD
+>The best way to reduce the dimensionality of the three matrices is to set the smallest of the singular values to zero. If we set the 
+ s smallest singular values to 0, then we can also eliminate the corresponding s columns of U and V .
+
+3.T-SNE
+Article: https://mlexplained.com/2018/09/14/paper-dissected-visualizing-data-using-t-sne-explained/
+> t-SNE, unlike PCA, is not a linear projection. It uses the local relationships between points to create a low-dimensional mapping.
+  This allows it to capture non-linear structure.
+> the underlying approach of t-SNE is to map points in high dimensional space to a lower dimension so that the distances between the points 
+  remains almost the same. 
+> it can handle the crowding problem very well.Another major benefit of t-SNE is that it uses "stochastic neighbors". This means that there
+  is no clear line between which points are neighbors of the other points. 
+steps:
+1.In the high-dimensional space, create a probability distribution that dictates the relationships between various neighboring points
+2.It then tries to recreate a low dimensional space that follows that probability distribution as best as possible.
