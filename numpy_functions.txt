@@ -69,3 +69,5 @@ ex. np.hstack((a,b))
 ex. np.random.randn(2,3)
   >>[-0.64863636 -0.28730311 -0.56747547]
     [ 0.9427455  -0.88447682  0.2324423 ]
+    
+15. np.hstack((ten1,ten2)) : will stack two tensors horizontally for which both tensors must have same no of rows
