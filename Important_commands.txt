@@ -43,4 +43,4 @@
 38. int(list[:,0]>0) : performing boolen operation on 0th colmn.will return list containing 1 and 0
 39. sklearn.datasets.make_hastie_10_2(n_samples=12000) :generate data for binary classification with 10  std indp Gaussian features 
 40. pd.set_option("display.max_rows",80) : sets the value to the parameter here max_rows
-41. np.reshape(tensor,new_dim,'c') : will reshape array to new dim. c here stand for row major which means elms will be appended row wise. 'f' will append elms column wise i.e 1st colm first then 2nd.
+41. np.reshape(tensor,new_dim,'c') : will reshape array to new dim. c here stand for row major which means elms will be appended row wise. 'f' will append elms column wise i.e 1st colm first then 2nd.you can use -1 for one dim.
