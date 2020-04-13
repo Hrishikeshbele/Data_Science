@@ -45,3 +45,4 @@
 40. pd.set_option("display.max_rows",80) : sets the value to the parameter here max_rows
 41. np.reshape(tensor,new_dim,'c') : will reshape array to new dim. c here stand for row major which means elms will be appended row wise. 'f' will append elms column wise i.e 1st colm first then 2nd.you can use -1 for one dim.
 42. np.hstack((ten1,ten2)) : will stack two tensors horizontally for which both tensors must have same no of rows.same for np.vstack().
+43. print('%.2f'%a),print("{0:.2f}".format(a)),print(round(a,2)) :printing a number upto 2 decimal places
