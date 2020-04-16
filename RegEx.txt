@@ -1,0 +1,11 @@
+links:
+1.https://www.w3schools.com/python/python_regex.asp#findall
+2.https://docs.python.org/3/howto/regex.html
+
+important functions:
+
+1.re.findall("ai", txt):
+
+2.re.search("\s", txt):
+
+3.re.sub("\s", "9", txt):
