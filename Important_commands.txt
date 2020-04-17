@@ -1,4 +1,4 @@
-
+> dir(math): returns list of all atributes and funtions of any object like class,module
 1.df_train.isnull().sum(axis = 0).sort_values(ascending=False): will display null values in each column in descending order
 2.new_data = df_train.dropna(thresh =len(df_train) * .8 , axis = 1):droping column where more than 80% values are null, default axis=0(rows).
 3.df['a'] = df['a'].astype(float): this will convert data type of column a to float.
