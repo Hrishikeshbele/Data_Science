@@ -49,3 +49,4 @@
 44. np.random.rand(6): random vector containing 6 elms betwn 0 to 1
 45. np.matmul(X1,X2) : mulply 2 matrices like traditionally row,colm multiplication
 46. X2.T : taking transpose of matrix
+47. np.linalg.norm(X1, 'fro') : we can cal varios norms of vects using this fn see docmentatn
