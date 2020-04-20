@@ -15,3 +15,8 @@ ex. [Hackathon page](https://datahack.analyticsvidhya.com/contest/practice-probl
 5.adding bullet points: add '-' before text 
 ex. - LoanAmount 
 
+
+-----------------------------------------------------------------------------------------------------------------
+
+colab:
+1. * is used to to get circle bullet point
