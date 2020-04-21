@@ -1,1 +1,2 @@
 > deep learning becoming more famous day by day because of 1.huge amt of data, 2.increased computational power 3. new algorithms
+> if gradient value becomes close to 0 then parameter will update by small amt in each iteration and whole process will slow down
