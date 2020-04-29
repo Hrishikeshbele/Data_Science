@@ -1,0 +1,1 @@
+> derivative is rate of change of function value(y) w.r.t x .
