@@ -1,2 +1,3 @@
 > derivative is rate of change of function value(y) w.r.t x .
 > slope of function can be different at different point on funtion graph.
+> vectorization makes python code much faster than traditional for loop.
