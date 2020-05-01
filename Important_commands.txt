@@ -52,3 +52,4 @@
 47. np.linalg.norm(X1, 'fro') : we can cal varios norms of vects using this fn see docmentatn
 48. os.listdir(directory) : will return list of files containing in given directory
 49. os.path.isdir(directory): check if given directory path if it is directory or file
+50. vector.shape[1] : will return first dimention(rows) of vector
