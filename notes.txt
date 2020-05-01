@@ -2,3 +2,4 @@
 > slope of function can be different at different point on funtion graph.
 > vectorization makes python code much faster than traditional for loop.
 > try to avoid rank 1 array data str while coding in python use n*m vectors instead.
+> we rarely use the "math" library in deep learning because the inputs of the functions are real numbers. In deep learning we mostly use matrices and vectors.
