@@ -12,3 +12,14 @@ def tanh(x):
     t=(np.exp(x)-np.exp(-x))/(np.exp(x)+np.exp(-x))
     dt=1-t**2
     return t,dt # t is fucntion value and dt is derivative value
+
+# L1-loss function
+def L1(yhat, y):
+    loss = np.sum(abs(yhat-y))
+    return loss
+
+
+# L2 loss funtion
+def L2(yhat, y):
+    loss = np.sum(np.dot(yhat-y,(yhat-y)))
+    return loss
