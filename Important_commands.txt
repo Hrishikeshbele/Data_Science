@@ -53,3 +53,4 @@
 48. os.listdir(directory) : will return list of files containing in given directory
 49. os.path.isdir(directory): check if given directory path if it is directory or file
 50. vector.shape[1] : will return first dimention(rows) of vector
+51. np.linalg.norm(x, axis =1, keepdims = True) : calculating norm of each row(as vector) in matrix
