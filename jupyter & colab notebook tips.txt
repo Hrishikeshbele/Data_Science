@@ -15,6 +15,8 @@ ex. [Hackathon page](https://datahack.analyticsvidhya.com/contest/practice-probl
 5.adding bullet points: add '-' before text 
 ex. - LoanAmount 
 
+6.display an image iif image is inside the notebook dir: <img src="image.png" style="width:400;height:400;">
+
 
 -----------------------------------------------------------------------------------------------------------------
 
