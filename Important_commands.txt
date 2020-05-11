@@ -56,3 +56,4 @@
 51. np.linalg.norm(x, axis =1, keepdims = True) : calculating norm of each row(as vector) in matrix
 52. np.dot() return classic matrix multiplication of 2 mtr's while np.multiply() return elementwise multiplication
 53. assert (a.shape == b.shape) : If the condition is true, it does nothing and your program just continues to execute. But if the assert condition evaluates to false, it raises an AssertionError exception
+54. df.dtypes : will return data type of each column in dataframe
