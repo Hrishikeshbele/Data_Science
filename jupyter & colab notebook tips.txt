@@ -29,6 +29,10 @@ ex. sent1 <br> sent2
 ex.
 a.<i>This is italic text </i>  b. *This is italic text*   c. _This is italic text_
 
+10.horizontal line to separate text: '---'
+ex. ---
+
+
 -----------------------------------------------------------------------------------------------------------------
 
 colab:
