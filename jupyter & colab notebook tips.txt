@@ -18,7 +18,7 @@ ex. - LoanAmount
 
 6.display an image iif image is inside the notebook dir: <img src="image.png" style="width:400;height:400;">
 
-7.Blockquotes:
+7.Blockquotes(indexing):
 Blockquotes can hold the large chunk of text and are generally indented. They can be obtained by using Markdown symbol '>' or with <blockquote>text for blockquote</blockquote>
 ex. >This is good
 
@@ -31,6 +31,9 @@ a.<i>This is italic text </i>  b. *This is italic text*   c. _This is italic tex
 
 10.horizontal line to separate text: '---'
 ex. ---
+
+11.Monospace font(text with white gray background):(`)
+ex. `important notice`
 
 
 -----------------------------------------------------------------------------------------------------------------
