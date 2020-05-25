@@ -35,7 +35,10 @@ ex. ---
 11.Monospace font(text with white gray background):(`)
 ex. `important notice`
 
-
+12.To create a sub bullet, press Tab before entering the bullet point using one of the methods described above. 
+ex:
+- Main bullet point
+     - Sub bullet point
 -----------------------------------------------------------------------------------------------------------------
 
 colab:
