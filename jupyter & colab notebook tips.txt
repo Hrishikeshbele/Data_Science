@@ -24,7 +24,10 @@ ex. >This is good
 
 8. Line break:  <br>
 ex. sent1 <br> sent2
-
+ 
+9.italic text:use <i> , '*' or _ tags  
+ex.
+a.<i>This is italic text </i>  b. * This is italic text  c. _ This is italic text
 
 -----------------------------------------------------------------------------------------------------------------
 
