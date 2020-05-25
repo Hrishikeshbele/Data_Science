@@ -39,6 +39,8 @@ ex. `important notice`
 ex:
 - Main bullet point
      - Sub bullet point
+     
+13.Colored note boxes,Graphics,mathematical symbols,Geometric shapes: https://www.ibm.com/support/knowledgecenter/SSQNUZ_1.2.1/com.ibm.icpdata.doc/dsx/markd-jupyter.html
 -----------------------------------------------------------------------------------------------------------------
 
 colab:
