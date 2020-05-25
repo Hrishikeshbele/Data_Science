@@ -23,4 +23,4 @@ ex. - LoanAmount
 
 colab:
 1. * is used to to get circle bullet point
-2. prevent Google Colab from disconnecting: https://medium.com/@shivamrawat_756/how-to-prevent-google-colab-from-disconnecting-717b88a128c0
+2. prevent Google Colab from automatically disconnecting: https://medium.com/@shivamrawat_756/how-to-prevent-google-colab-from-disconnecting-717b88a128c0
