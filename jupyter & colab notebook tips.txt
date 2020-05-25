@@ -22,6 +22,9 @@ ex. - LoanAmount
 Blockquotes can hold the large chunk of text and are generally indented. They can be obtained by using Markdown symbol '>' or with <blockquote>text for blockquote</blockquote>
 ex. >This is good
 
+8. Line break:  <br>
+ex. sent1 <br> sent2
+
 
 -----------------------------------------------------------------------------------------------------------------
 
