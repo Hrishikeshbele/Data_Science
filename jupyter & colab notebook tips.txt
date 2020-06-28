@@ -43,6 +43,11 @@ ex:
 13.Colored note boxes,Graphics,mathematical symbols,Geometric shapes: https://www.ibm.com/support/knowledgecenter/SSQNUZ_1.2.1/com.ibm.icpdata.doc/dsx/markd-jupyter.html
 -----------------------------------------------------------------------------------------------------------------
 
-colab:
+COLAB:
+
 1. * is used to to get circle bullet point
+
 2. prevent Google Colab from automatically disconnecting: https://medium.com/@shivamrawat_756/how-to-prevent-google-colab-from-disconnecting-717b88a128c0
+
+3. use ! before command line . 
+   ex. !pip install tensorflow
