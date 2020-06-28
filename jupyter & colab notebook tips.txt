@@ -51,3 +51,6 @@ COLAB:
 
 3. use ! before command line . 
    ex. !pip install tensorflow
+   
+4. change current directory with %cd new_dir_path .
+ex. %cd  /content/drive/My Drive/Colab Notebooks/Chatboat Project
