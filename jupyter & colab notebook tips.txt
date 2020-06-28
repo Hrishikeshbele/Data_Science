@@ -52,5 +52,5 @@ COLAB:
 3. use ! before command line . 
    ex. !pip install tensorflow
    
-4. change current directory with %cd new_dir_path .
+4. change current directory with %cd new_dir_path . note that first you have to mount the google drive. /content/ is the default directory in colab.
 ex. %cd  /content/drive/My Drive/Colab Notebooks/Chatboat Project
