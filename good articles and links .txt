@@ -1,4 +1,8 @@
 1.solving mismatch in train and test set after encoding:
 https://medium.com/@vaibhavshukla182/how-to-solve-mismatch-in-train-and-test-set-after-categorical-encoding-8320ed03552f
+
 2.Advanced plotting with matplotlib:
 https://python4astronomers.github.io/plotting/advanced.html
+
+3.Why you need Python environments and how to manage them with Conda
+https://protostar.space/why-you-need-python-environments-and-how-to-manage-them-with-conda
