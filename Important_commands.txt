@@ -59,3 +59,4 @@
 54. df.dtypes : will return data type of each column in dataframe
 55. os.path.getsize(path) : give you file size in bytes
 56. df.columns : will return list of columns of dataframe
+57. df[(df['SL_FE']<=60) & (df['SL_FE']>=5)] : will return dataframe with rows where 'sl_fe' column values are in range 5-60.
