@@ -58,3 +58,4 @@
 53. assert (a.shape == b.shape) : If the condition is true, it does nothing and your program just continues to execute. But if the assert condition evaluates to false, it raises an AssertionError exception
 54. df.dtypes : will return data type of each column in dataframe
 55. os.path.getsize(path) : give you file size in bytes
+56. df.columns : will return list of columns of dataframe
