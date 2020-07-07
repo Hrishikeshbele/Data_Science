@@ -62,3 +62,4 @@
 57. df[(df['SL_FE']<=60) & (df['SL_FE']>=5)] : will return dataframe with rows where 'sl_fe' column values are in range 5-60.
 58. (k[k.columns] == 99).sum() : returns no of times 99 is present in each column
 59. df['SL_S'].value_counts().to_dict() : return the value count of each unique entry in sl_s column as sorted dictonary by keys.
+60. df['SL_MNO'].unique() : will return the unique values in sl_mno column of dataframe
