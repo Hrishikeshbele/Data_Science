@@ -60,3 +60,4 @@
 55. os.path.getsize(path) : give you file size in bytes
 56. df.columns : will return list of columns of dataframe
 57. df[(df['SL_FE']<=60) & (df['SL_FE']>=5)] : will return dataframe with rows where 'sl_fe' column values are in range 5-60.
+58. (k[k.columns] == 99).sum() : returns no of times 99 is present in each column
