@@ -64,3 +64,4 @@
 59. df['SL_S'].value_counts().to_dict() : return the value count of each unique entry in sl_s column as sorted dictonary by keys.
 60. df['SL_MNO'].unique() : will return the unique values in sl_mno column of dataframe
 61. sorted(d.items(), key=lambda x: x[1]) : sorting dictonary by values
+62. df.shape : will return shape of dataframe in tuple
