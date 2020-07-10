@@ -69,3 +69,4 @@
 64. df.iloc[:,0] : select 1st column from dataframe using index
 65. random.choices(list, k = 3) : returns random 3 elements from the list
 66. random.choice(list) : returns random elm from the list
+67. mylist.remove(elm) : remove the element from the list
