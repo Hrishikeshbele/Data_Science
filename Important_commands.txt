@@ -65,3 +65,5 @@
 60. df['SL_MNO'].unique() : will return the unique values in sl_mno column of dataframe
 61. sorted(d.items(), key=lambda x: x[1]) : sorting dictonary by values
 62. df.shape : will return shape of dataframe in tuple
+63. df.iloc[0,:] : select 1st row from its index
+64. df.iloc[:,0] : select 1st column from dataframe using index
