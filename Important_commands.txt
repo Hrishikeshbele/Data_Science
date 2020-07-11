@@ -71,3 +71,4 @@
 66. random.choice(list) : returns random elm from the list
 67. mylist.remove(elm) : remove the element from the list
 68. df1['SL_CAST'].value_counts()[df1['SL_CAST'].value_counts()>1] : find out unique values in column sl_cast whose count is greater than 1
+69. df=df.round(3) : rounds all decimal places values in dataframe to 3 decimal places 
