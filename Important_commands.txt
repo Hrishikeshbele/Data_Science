@@ -72,3 +72,4 @@
 67. mylist.remove(elm) : remove the element from the list
 68. df1['SL_CAST'].value_counts()[df1['SL_CAST'].value_counts()>1] : find out unique values in column sl_cast whose count is greater than 1
 69. df=df.round(3) : rounds all decimal places values in dataframe to 3 decimal places 
+70. https://stackoverflow.com/questions/17071871/how-to-select-rows-from-a-dataframe-based-on-column-values : selecting rows from df with some values
