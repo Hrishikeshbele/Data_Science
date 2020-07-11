@@ -74,3 +74,4 @@
 69. df=df.round(3) : rounds all decimal places values in dataframe to 3 decimal places 
 70. https://stackoverflow.com/questions/17071871/how-to-select-rows-from-a-dataframe-based-on-column-values : selecting rows from df with some values
 71. df['SL_TIO2'] = df['SL_TIO2'].fillna((df['SL_TIO2'].mean())) : filling nan values in column with column mean
+72. pd.merge(df1, df2, how='left', left_on=['id_key'], right_on=['fk_key']) : join 2 dataframe of same columns but with different names
