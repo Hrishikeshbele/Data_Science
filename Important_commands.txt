@@ -78,3 +78,4 @@
 73. pd.concat(g for _, g in df.groupby("ID") if len(g) > 1) : return the row in dataframe which correspond to duplicates heat id's
 74. df = pd.read_csv("Demo.txt",delimiter=',') : reading ',' separated text file as pandas dataframe
 75. df[df['CAST_NO'].isin(ids)] : return the rows in df which has values in 'ids' list in 'cast_no' column
+76. df1.sort_values(by='AP_TIME') : sort dataframe in ascending order w.r.t to column ap_time
