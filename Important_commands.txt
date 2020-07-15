@@ -80,3 +80,4 @@
 75. df[df['CAST_NO'].isin(ids)] : return the rows in df which has values in 'ids' list in 'cast_no' column
 76. df1.sort_values(by='AP_TIME') : sort dataframe in ascending order w.r.t to column ap_time
 77. Use the ensure_ascii=False in json.dumps() function to save string as normal string and not as unicode characters
+78. list(dict.fromkeys(l).keys()) : remove duplicates from the list and keep list order as it was
