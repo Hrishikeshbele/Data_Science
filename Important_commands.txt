@@ -83,4 +83,4 @@
 78. list(dict.fromkeys(l).keys()) : remove duplicates from the list and keep list order as it was
 79. df['col1'].iloc[-1] : we will get final element of col1 from df dataframe
 80. df_new.loc[i]['c']= 20 : allocate 20 value to row i in 'c' col
-81. pd.Series(0, index=df_new.columns,dtype=np.int64) : creates pandas series with index as column names and set their values as 0. 
+81. pd.Series(0, index=df_new.columns,dtype=np.int64) : creates pandas series with index as column names and set their values as 0.it is like one column. we can access element like list . 
