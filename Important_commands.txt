@@ -81,3 +81,5 @@
 76. df1.sort_values(by='AP_TIME') : sort dataframe in ascending order w.r.t to column ap_time
 77. Use the ensure_ascii=False in json.dumps() function to save string as normal string and not as unicode characters
 78. list(dict.fromkeys(l).keys()) : remove duplicates from the list and keep list order as it was
+79. df['col1'].iloc[-1] : we will get final element of col1 from df dataframe
+80. df_new.loc[i]['c']= 20 : allocate 20 value to row i in 'c' col
