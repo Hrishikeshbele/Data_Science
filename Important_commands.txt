@@ -84,3 +84,5 @@
 79. df['col1'].iloc[-1] : we will get final element of col1 from df dataframe
 80. df_new.loc[i]['c']= 20 : allocate 20 value to row i in 'c' col
 81. pd.Series(0, index=df_new.columns,dtype=np.int64) : creates pandas series with index as column names and set their values as 0.it is like one column. we can access element like list . 
+82. df.isna().sum() : return null values count in each column of dataframe
+83. df1.isin([0]).sum(): return 0 values count in each column of dataframe
