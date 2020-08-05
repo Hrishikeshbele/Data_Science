@@ -88,3 +88,4 @@
 83. df1.isin([0]).sum(): return 0 values count in each column of dataframe
 84. df[df['B']==3]['A'] : select column A value from dataframe where column B value is 3.
 85. any(df.A == 07311954) : to check if value present in column A
+86. df.at[4, 'B'] : access element at 4th index in column 'B'
