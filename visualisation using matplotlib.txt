@@ -103,3 +103,4 @@ ax1 = plt.subplot(211)
 ax2 = plt.subplot(212)
 plt.show()
 
+14. fig.add_axes([0,0,1,1]) :add an axes to a figure.[x0, y0, width, height] denoting the lower left point of the axes in coodinates (x0,y0) and its width and height
