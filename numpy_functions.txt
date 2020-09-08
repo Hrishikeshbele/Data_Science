@@ -74,3 +74,6 @@ ex. np.random.randn(2,3)
 
 16. np.dot() return classic matrix multiplication of 2 mtr's while np.multiply() return elementwise multiplication
 17. np.concatenate((arr1, arr2)): joining 2 array's
+18. np.array_split(arr, 2): split the array in 2 parts
+19. np.where(arr == 4) : will return array of indexes where value is equal to 4
+20. np.random.rand() method return a random float between o and 1, np.random.randint(100, size=(3,5)) will return array of shape (3,5) with elm betwn 1-100
