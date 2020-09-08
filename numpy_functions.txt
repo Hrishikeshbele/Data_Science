@@ -73,3 +73,4 @@ ex. np.random.randn(2,3)
 15. np.hstack((ten1,ten2)) : will stack two tensors horizontally for which both tensors must have same no of rows
 
 16. np.dot() return classic matrix multiplication of 2 mtr's while np.multiply() return elementwise multiplication
+17. np.concatenate((arr1, arr2)): joining 2 array's
