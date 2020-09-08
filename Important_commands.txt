@@ -91,3 +91,4 @@
 86. df.at[4, 'B'] : access element at 4th index in column 'B'
 87. datetime.strptime('11:15:49', '%H:%M:%S') - datetime.strptime('10:33:26', '%H:%M:%S') : calculates difference between 2 datetime
 88. df2 = df.rename(columns={'a': 'X', 'b': 'Y'}) : will rename column a to x and b to y
+89. dataset.groupby('class').size() : prints size of each class in our target var 'class'
