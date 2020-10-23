@@ -93,3 +93,4 @@
 88. df2 = df.rename(columns={'a': 'X', 'b': 'Y'}) : will rename column a to x and b to y
 89. dataset.groupby('class').size() : prints size of each class in our target var 'class'
 90. string.maketrans('l','p','!,$'): replace l with p and remove ! and $ , string.punctuation in last position would remove all punctuation from string.
+91. numpy.argsort(arr) : will give list containing the index of sorted elms in original array
