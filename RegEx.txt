@@ -10,6 +10,10 @@ links:
 > '\s' matches whitespace (space, tab, newline)
 > '\S' matches anything not whitespace 
 
+> '\b' find matches with word boundary constaint
+> '\B' opposite of above statement
+> '^' find matches at biginning of string
+> '$' find matchs at end of string
 important functions:
 
 1.re.findall("ai", txt): return object of all matches in txt.
