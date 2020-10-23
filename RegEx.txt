@@ -23,3 +23,5 @@ important functions:
 3.re.sub("\s", "9", txt):
 
 4.re.finditer(pattern, string) : returns iterators over all pattern matches
+
+5. re.compile('abc') : create pattern
