@@ -30,7 +30,7 @@ important functions:
 
 2.re.search("pattern", txt): if pattern is present in txt string it will return true else None. can return only 1st match of pattern.
 
-3.re.sub("\s", "9", txt):
+3.re.sub("hi", "9", txt): Return the string obtained by replacing the leftmost non-overlapping occurrences of pattern in string by the replacement '9' .
 
 4.re.finditer(pattern, string) : returns iterators over all pattern matches
 
