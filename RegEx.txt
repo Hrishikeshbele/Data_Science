@@ -26,4 +26,4 @@ important functions:
 
 5. re.compile('abc') : create pattern
 
-6. [\#*] (char set) : we put in char we wanted to match .to specify range : [1-5] or [a-z] or [a-zA-Z](lower and upper case)
+6. [\#*] (char set) : we put in char we wanted to match .to specify range : [1-5] or [a-z] or [a-zA-Z](lower and upper case), if we put ^  it will match everything not in charset. 
