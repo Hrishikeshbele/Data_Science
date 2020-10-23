@@ -4,7 +4,7 @@ links:
 
 important functions:
 
-1.re.findall("ai", txt):
+1.re.findall("ai", txt): return object of all matches in txt.
 
 2.re.search("pattern", txt): if pattern is present in txt string it will return true else None. can return only 1st match of pattern.
 
