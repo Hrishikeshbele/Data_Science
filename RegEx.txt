@@ -3,6 +3,7 @@ links:
 2.https://docs.python.org/3/howto/regex.html
 
 > '.' matches any char except new line
+> '\.' to match that '.' in string 
 > '\d' matches digits betwn (0-9)
 > '\D' matches with anything not a digit 
 > '\w' matches word chars(a-z , A-Z , 0-9,_)
@@ -14,6 +15,15 @@ links:
 > '\B' opposite of above statement
 > '^' find matches at biginning of string
 > '$' find matchs at end of string
+> | is or , () used for group
+
+quantifiers:(we use it after char )
+> * : 0 or more 
+> + : 1 or more 
+> ? : o or one (means match pattern  if that char is present or not )
+> d{3} : match pattern like ddd i.e 3 d's repeating
+> d{3,4} : match pattern with repetation in range(3,4) (min-max) .
+
 important functions:
 
 1.re.findall("ai", txt): return object of all matches in txt.
