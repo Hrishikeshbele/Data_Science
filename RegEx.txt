@@ -19,8 +19,8 @@ links:
 
 quantifiers:(we use it after char )
 > * : 0 or more 
-> + : 1 or more 
-> ? : o or one (means match pattern  if that char is present or not )
+> + : 1 or more (matches 1 or more of prev char or char set. ) 
+> ? : o or one (means match pattern  if that char is present or not )(basically makes last char optional)
 > d{3} : match pattern like ddd i.e 3 d's repeating
 > d{3,4} : match pattern with repetation in range(3,4) (min-max) .
 
