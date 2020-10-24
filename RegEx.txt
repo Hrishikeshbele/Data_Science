@@ -32,7 +32,7 @@ important functions:
 
 3.re.sub("hi", "9", txt): Return the string obtained by replacing the leftmost non-overlapping occurrences of pattern in string by the replacement '9' .
 
-4.re.finditer(pattern, string) : returns iterators over all pattern matches
+4.re.finditer(pattern, string) : returns iterators over all pattern matches.(for match in re.finditer(pattern, s1): s = match.start() ,e = match.end(): geting match indexes)
 
 5. re.compile('abc') : create pattern
 
