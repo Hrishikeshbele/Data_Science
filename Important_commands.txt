@@ -94,3 +94,4 @@
 89. dataset.groupby('class').size() : prints size of each class in our target var 'class'
 90. string.maketrans('l','p','!,$'): replace l with p and remove ! and $ , string.punctuation in last position would remove all punctuation from string.
 91. numpy.argsort(arr) : will give list containing the index of sorted elms in original array
+92. df[df['name'].notnull()] :it removes only rows that have NaN values in 'name' column.
