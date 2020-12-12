@@ -1,3 +1,0 @@
-1. get domain knowledge.as it helps to deeper understand the problem.
-2.check if data is intuitive and agrees with domain knowledge.check for outliers and unexpected values like 344 in age feature.
-3. handle anonymous features.we can either decode the feature or guess the feature type.
