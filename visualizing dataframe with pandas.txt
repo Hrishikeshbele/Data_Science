@@ -1,2 +1,0 @@
-1. df.plot.bar(x='label', y='values', rot=0) : plot the bar plot of df with x-axis names of label column and values of values column.
-2. df.boxplot(column=['Col1', 'Col2', 'Col3'],by='X') : Boxplots of column variables distributions grouped by the values of a x variable.
