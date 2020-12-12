@@ -47,6 +47,9 @@ k-nearest neighbors with an Euclidean distance measure is sensitive to magnitude
 We can speed up gradient descent by scaling. This is because θ will descend quickly on small ranges and slowly on large ranges, and so will oscillate inefficiently down to the optimum when the variables are very uneven.Tree based models are not distance based models and can handle varying ranges of features. Hence, Scaling is not required while modelling trees.Algorithms like Linear Discriminant Analysis(LDA), Naive Bayes are by design equipped to handle this and gives weights to the features accordingly. Performing a features scaling in these algorithms may not have much effect.
 
 
+
+
+
 ### Standerdization VS Normalization  ###
 
 std vs norm- https://towardsdatascience.com/normalization-vs-standardization-quantitative-analysis-a91e8a79cebf
